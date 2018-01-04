@@ -746,18 +746,299 @@ button.log{
 .faq-page .accordion .panel-collapse .inner-box {
     padding: 12px 0;
 }
+.popup-client span{
+    background-color:#d42a1d ;
+    color: #fff;
+    font-size: 14px !important;
+}
+.popup-client > span {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    color: #ffffff;
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    padding: 13px 30px;
+    cursor: pointer;
+}
+.popup-client .fa-user{
+    display: inline;
+    font-size: 16px;
+    margin-right: 4px;
+}
+.popup-client{
+    margin-top: 8px;
+}
 @media only screen and (min-width : 1026px) {
-    .contact-toggle{
-        bottom: auto;
-        top: 45px;
-        right: 125px;
+    /*.contact-toggle{*/
+        /*bottom: auto;*/
+        /*top: 45px;*/
+        /*right: 125px;*/
+    /*}*/
+    /*.min-fixed .contact-toggle{*/
+        /*top:11px;*/
+    /*}*/
+    /*.contact-toggle span{*/
+        /*border-radius: 4px;*/
+        /*height: 45px;*/
+        /*line-height: 43px;*/
+    /*}*/
+}
+
+.account-popup-sec.active{
+    opacity: 1;
+    visibility: visible;
+}
+.account-popup-sec {
+    background: rgba(20, 20, 20, 0.81) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    z-index: 999;
+}
+.account-popup-area {
+    height: 100%;
+    left: 0;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.close-popup{
+    background:#d42a1d ;
+    color: #fff;
+    transition: all 0.5s;
+}
+.close-popup:hover{
+    background: #222;
+}
+.account-popup {
+    background: #ffffff none repeat scroll 0 0;
+    position: relative;
+    left: 50%;
+    margin-top: 70px;
+
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+    width: 970px;
+}
+.account-popup > .row {
+    margin: 0;
+}
+.account-popup > .row > div {
+    padding: 0;
+}
+.account-user {
+    background-image: url("../images/login-bg.jpg");
+    background-size: cover;
+    float: left;
+    height: 100%;
+    padding: 110px 65px;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    text-align: center;
+}
+.account-user::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.44;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+.account-user .logo {
+    display: inline-block;
+    float: none;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.account-user > p {
+    color: #cfcfcf;
+    float: left;
+    width: 100%;
+}
+.account-user > form {
+    float: left;
+    width: 100%;
+}
+.account-user > form > h4 {
+    color: #ffffff;
+    float: left;
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.account-user .field {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.account-user .field input[type="text"], .account-user .field input[type="password"] {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    float: left;
+    font-family: Nunito;
+    font-size: 15px;
+    height: 58px;
+    margin-top: 16px;
+    padding: 0 30px;
+    width: 100%;
+    margin-bottom: 0;
+}
+.account-user > form input.flat-btn {
+    display: inline-block;
+    float: none;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background: #d42a1d;
+}
+.account-user > i {
+    color: #c8c8c8;
+    float: left;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 40px;
+    margin-top: 48px;
+    width: 100%;
+}
+.account-user > span {
+    color: #c8c8c8;
+    float: left;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.account-user > .social-btns {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.account-user > .social-btns > li {
+    display: inline-block;
+    float: none;
+    margin: 0;
+}
+.registration-sec {
+    float: left;
+    padding: 120px 66px;
+    text-align: center;
+    width: 100%;
+}
+.registration-sec > h3 {
+    color: #282828;
+    float: left;
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 17px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.close-popup {
+    color: #ffffff;
+    cursor: pointer;
+    height: 40px;
+    line-height: 38px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 40px;
+}
+.close-popup:hover{
+    background: #444444;
+}
+.registration-sec .field {
+    float: left;
+    width: 100%;
+}
+.registration-sec .field input[type="text"], .registration-sec .field input[type="password"] {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    color: #666666;
+    float: left;
+    font-family: Nunito;
+    font-size: 15px;
+    height: 58px;
+    margin-top: 16px;
+    padding: 0 30px;
+    width: 100%;
+}
+.registration-sec > form input.flat-btn {
+    display: inline-block;
+    float: none;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background: #d42a1d;
+}
+html.no-scroll {
+    overflow: hidden;
+}
+.registration-sec .field > label {
+    color: #747474;
+    float: left;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 20px;
+    margin-top: 27px;
+}
+.registration-sec .field > label > input {
+    margin-right: 5px;
+}
+.registration-sec form > label {
+    color: #747474;
+    float: left;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 28px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+.registration-sec form > label > input {
+    margin-right: 5px;
+}
+@media (max-width: 480px){
+    .flat-btn {
+        border: 1px solid transparent;
+        color: #fff;
+        float: left;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 13px 21px;
     }
-    .min-fixed .contact-toggle{
-        top:11px;
-    }
-    .contact-toggle span{
-        border-radius: 4px;
-        height: 45px;
-        line-height: 43px;
+}
+@media (max-width: 767px){
+    .account-popup {
+        width: 98%;
     }
 }
