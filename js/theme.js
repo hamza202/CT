@@ -632,6 +632,6 @@ jQuery(document).ready(function(){
 
 
     /*=================== Parallax ===================*/
-    $('.parallax').scrolly({bgParallax: true});
+    
 
 });
