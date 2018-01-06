@@ -5,13 +5,6 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="account-user">
-                        <div class="logo">
-                            <a href="#" title="">
-                                <i class="fa fa-get-pocket"></i>
-                                <span>MUSHI</span>
-                                <strong>Innovation is here</strong>
-                            </a>
-                        </div><!-- LOGO -->
                         <p>Create an Account it takes less than a minute. If you have already account please LOGIN </p>
                         <form>
                             <h4>Login Form</h4>
@@ -101,7 +94,7 @@
             </div>
             <div class="col-md-2 col-xs-3">
                 <div class="popup-client">
-                    <span><i class="fa fa-user"></i> / Signup</span>
+                    <span><i class="fa fa-user"></i> <span class="hidden-xs">/ Signup</span></span>
                 </div>
             </div>
         </div>

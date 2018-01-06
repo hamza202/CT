@@ -845,7 +845,7 @@ button.log{
     background-size: cover;
     float: left;
     height: 100%;
-    padding: 110px 65px;
+    padding: 196px 65px;
     position: relative;
     width: 100%;
     z-index: 0;
@@ -1026,6 +1026,10 @@ html.no-scroll {
 .registration-sec form > label > input {
     margin-right: 5px;
 }
+.flat-btn{
+    width: 120px;
+    padding: 0 !important;
+}
 @media (max-width: 480px){
     .flat-btn {
         border: 1px solid transparent;
@@ -1040,5 +1044,10 @@ html.no-scroll {
 @media (max-width: 767px){
     .account-popup {
         width: 98%;
+    }
+}
+@media (max-width: 480px){
+    .account-user {
+        padding: 110px 35px;
     }
 }

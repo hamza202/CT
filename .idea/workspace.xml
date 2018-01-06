@@ -4,9 +4,7 @@
     <list default="true" id="38eddb1f-5a36-46ca-95f7-9d75cccee174" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header.php" afterPath="$PROJECT_DIR$/Header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PersonalIncomeTax.php" afterPath="$PROJECT_DIR$/PersonalIncomeTax.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/theme.js" afterPath="$PROJECT_DIR$/js/theme.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,25 +49,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/kkkk/mish/forest.themenum.com/mushi/css/style.css">
+      <file leaf-file-name="Header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="3565" column="0" lean-forward="false" selection-start-line="3565" selection-start-column="0" selection-end-line="3790" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="94">
+              <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+              <folding>
+                <marker date="1515076206165" expanded="false" signature="6169:6181" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Header.php">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <marker date="1515073399422" expanded="false" signature="6492:6504" ph="..." />
-              </folding>
+            <state relative-caret-position="353">
+              <caret line="96" column="48" lean-forward="true" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,8 +114,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="806" column="14" lean-forward="false" selection-start-line="806" selection-start-column="0" selection-end-line="806" selection-end-column="14" />
+            <state relative-caret-position="274">
+              <caret line="847" column="16" lean-forward="false" selection-start-line="847" selection-start-column="16" selection-end-line="847" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -128,8 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.uk-tab &gt; .uk-active &gt; a</find>
-      <find>social-box</find>
       <find>.nk-news-box .media p</find>
       <find>&lt;h3 class=&quot;m-0&quot;&gt;Sheesh&lt;/h3&gt;</find>
       <find>.nk-news-box .date-box</find>
@@ -154,10 +149,12 @@
       <find>popup-client</find>
       <find>.account-popup-area</find>
       <find>submit</find>
-      <find>flat-btn</find>
       <find>.registration-sec &gt; form input.flat-btn</find>
-      <find>Singup Now</find>
       <find>.account-popup</find>
+      <find>Singup Now</find>
+      <find>flat-btn</find>
+      <find>.account-user</find>
+      <find>Innovation is here</find>
     </findStrings>
     <replaceStrings>
       <replace>#</replace>
@@ -179,7 +176,6 @@
         <option value="$USER_HOME$/Desktop/kkkk/ahmed/demos.pixelatethemes.com/financepro-2/Demo_5/js/theme.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/contact.php" />
-        <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/Payroll.php" />
         <option value="$PROJECT_DIR$/Bookkeeping.php" />
@@ -198,6 +194,7 @@
         <option value="$PROJECT_DIR$/PersonalIncomeTax.php" />
         <option value="$PROJECT_DIR$/Footer.php" />
         <option value="$PROJECT_DIR$/js/theme.js" />
+        <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/Header.php" />
         <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
@@ -210,7 +207,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -237,6 +234,11 @@
             <path>
               <item name="CT" type="b2602c69:ProjectViewProjectNode" />
               <item name="CT" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CT" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -286,15 +288,15 @@
       <workItem from="1515053471965" duration="659000" />
       <workItem from="1515057225370" duration="7095000" />
       <workItem from="1515068113478" duration="1694000" />
-      <workItem from="1515070992153" duration="3378000" />
+      <workItem from="1515070992153" duration="5834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73395000" />
+    <option name="totallyTimeSpent" value="75851000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14568081" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -457,13 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55170">
           <caret line="3065" column="65" lean-forward="false" selection-start-line="3065" selection-start-column="65" selection-end-line="3065" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -660,21 +655,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="96" column="48" lean-forward="true" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        <state relative-caret-position="94">
+          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <marker date="1515073399422" expanded="false" signature="6492:6504" ph="..." />
+            <marker date="1515076206165" expanded="false" signature="6169:6181" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="806" column="14" lean-forward="false" selection-start-line="806" selection-start-column="0" selection-end-line="806" selection-end-column="14" />
+        <state relative-caret-position="274">
+          <caret line="847" column="16" lean-forward="false" selection-start-line="847" selection-start-column="16" selection-end-line="847" selection-end-column="16" />
           <folding />
         </state>
       </provider>
