@@ -136,8 +136,41 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-xs-12 mt-20">
+                                <div class="alert alert-danger">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>Attention!</strong> You must sign in to see Attachments.
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="attachments mt-30 ">
+                                    <h3 class="text-capitalize">Attachment Title</h3>
+                                    <a href="#" class="buttonDownload mt-20">Download</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="attachments mt-30 ">
+                                    <h3 class="text-capitalize">Attachment Title</h3>
+                                    <a href="#" class="buttonDownload mt-20">Download</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="attachments mt-30 ">
+                                    <h3 class="text-capitalize">Attachment Title</h3>
+                                    <a href="#" class="buttonDownload mt-20">Download</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="attachments mt-30 ">
+                                    <h3 class="text-capitalize">Attachment Title</h3>
+                                    <a href="#" class="buttonDownload mt-20">Download</a>
+                                </div>
+                            </div>
 
+                        </div>
                     </div>
+
                     <!-- /.single-service-box-->
                 </div>
             </div>

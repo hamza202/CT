@@ -1,4 +1,41 @@
 "use strict"; // Start of use strict
+$(document).ready(function () {
+    $("#content-slider").lightSlider({
+        loop: true,
+        keyPress: true,
+        auto:true,
+        speed:1000,
+        pause:2500,
+        slideMove: 1,
+        item: 5,
+        prevHtml: '<i class="fa fa-angle-left"></i>',
+        nextHtml: '<i class="fa fa-angle-right"></i>',
+        pager:false,
+        responsive: [
+            {
+                breakpoint: 1000,
+                settings: {
+                    item: 4,
+                    slideMove: 1,
+                }
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    item: 3,
+                    slideMove: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    item: 1,
+                    slideMove: 1
+                }
+            }
+        ]
+    });
+});
 /*************************
  Contect open
  *************************/
@@ -130,8 +167,7 @@ function projectCarousel() {
             autoplayTimeout: 3000,
             autoplayHoverPause: true,
             navText: [
-                '',
-                ''
+                '<i class="fa fa-angle-left"></i>'
             ],
             responsive: {
                 0: {
@@ -228,12 +264,16 @@ function teamCarousel() {
         $('.team-carousel').owlCarousel({
             loop: false,
             margin: 30,
-            nav: false,
+            nav: true,
             dots: false,
             autoWidth: true,
             autoplay: true,
             autoplayTimeout: 3000,
             autoplayHoverPause: false,
+            navText: [
+                '<i class="fa fa-angle-left"></i>',
+                '<i class="fa fa-angle-right"></i>'
+            ],
             responsive: {
                 0: {
                     items: 1,
@@ -632,6 +672,5 @@ jQuery(document).ready(function(){
 
 
     /*=================== Parallax ===================*/
-    
 
 });

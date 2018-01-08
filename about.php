@@ -31,18 +31,18 @@ include('Header.php');
         <div class="row">
             <div class="col-md-4"><img src="images/about-1.jpg" alt="Awesome Image"></div>
             <div class="col-md-8">
-                <div class="text-box ">
+                <div class="text-box text-capitalize">
                     <div class="sec-title">
                         <h2>About Us</h2>
                         <div class="decor-line"></div>
                     </div>
-                    <p>CT Professional Service provides a wide range of bookkeeping, personal and business income tax
+                    <p >CT Professional Service provides a wide range of bookkeeping, personal and business income tax
                         and Payroll services for small and medium size businesses in Ottawa - Gatineau region. We honour
                         ourselves with great services and have made it our goal to reach 100% client satisfaction.
                         We're different from our competitors and unique by offering reliable, efficient, and affordable
                         services in order to make it easy and convent for our clients by:</p>
-                    <ul class="list-box">
-                        <li>We are available all year around to help our clients answer any tax questions they may have
+                    <ul class="list-box ">
+                        <li >We are available all year around to help our clients answer any tax questions they may have
                             regarding any letters from the CRA with no additional charges.
                         </li>
                         <li>We offer Pick Up, Drop Off, E-mail or on-site services. The Clients will receive a follow-up
@@ -59,7 +59,7 @@ include('Header.php');
                 </div>
             </div>
         </div>
-        <div class="row mt-20">
+        <div class="row mt-20 text-capitalize">
             <div class="col-xs-12">
                 <p>In addition to the main services that we provide like bookkeeping and income tax services; we can
                     also assist clients:</p>

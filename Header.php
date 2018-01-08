@@ -55,10 +55,9 @@
             </div>
             <div id="main-nav" class="stellarnav col-md-7 col-xs-9 ">
                 <ul>
+                    <li><a href="index.php">Home</a>
+                    </li>
                     <li><a href="about.php">about us</a>
-                        <ul>
-                            <li><a href="whyShoseUs.php">Why choose us</a></li>
-                        </ul>
                     </li>
                     <li><a href="#">Services</a>
                         <ul>

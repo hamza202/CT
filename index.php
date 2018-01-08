@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="plugins/owl.carousel-2/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="plugins/bootstrap-select/dist/css/bootstrap-select.min.css">
     <!-- main stylesheet-->
+    <link rel="stylesheet" href="css/lightslider.css">
     <link rel="stylesheet" href="css/stellarnav.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -172,185 +173,61 @@ include ('Header.php');
         </div>
     </div>
 </section>
-<section class="news pt-100 pb-100" style="background: #f3f5f6">
-    <div class="sec-title text-center">
-        <h2>Canada Revenue</h2>
-        <div class="decor-line"></div>
-    </div>
-    <div class="nk-news-box">
-        <div class="uk-grid-small uk-child-width-expand@s uk-text-center uk-grid" uk-grid="">
-            <div class="uk-width-1-3@m">
-                <ul class="style-3 overflow-y uk-tab"
-                    uk-tab="connect: #component-tab-left; animation: uk-animation-fade">
-                    <li aria-expanded="true" class="uk-active">
-                        <a href="#" scroll-ignore="">
-                            <div class="media">
-                                <img class="d-flex mr-20 img-fluid rounded " src="images/new/project1.jpg" alt="image">
-                                <div class="media-body">
 
-                                    <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy </p>
-                                    <div class="date-box">
-                                        <span class="fa fa-calendar mr-6"></span> Published in 2015
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li aria-expanded="false">
-                        <a href="#" scroll-ignore="">
-                            <div class="media">
-                                <img class="d-flex mr-20 img-fluid rounded " src="images/new/project2.jpg" alt="image">
-                                <div class="media-body">
-
-                                    <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy </p>
-                                    <div class="date-box">
-                                        <span class="fa fa-calendar mr-6"></span> Published in 2015
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li aria-expanded="false">
-                        <a href="#" scroll-ignore="">
-                            <div class="media">
-                                <img class="d-flex mr-20 img-fluid rounded " src="images/new/project3.jpg" alt="image">
-                                <div class="media-body">
-
-                                    <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy </p>
-                                    <div class="date-box">
-                                        <span class="fa fa-calendar mr-6"></span> Published in 2015
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li aria-expanded="false">
-                        <a href="#" scroll-ignore="">
-                            <div class="media">
-                                <img class="d-flex mr-20 img-fluid rounded " src="images/new/project4.jpg" alt="image">
-                                <div class="media-body">
-
-                                    <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy </p>
-                                    <div class="date-box">
-                                        <span class="fa fa-calendar mr-6"></span> Published in 2015
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li aria-expanded="false">
-                        <a href="#" scroll-ignore="">
-                            <div class="media">
-                                <img class="d-flex mr-20 img-fluid rounded " src="images/new/project1.jpg" alt="image">
-                                <div class="media-body">
-
-                                    <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy.</p>
-                                    <div class="date-box">
-                                        <span class="fa fa-calendar mr-6"></span> Published in 2015
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+<section class="sec-pad team-bg team-bg2">
+    <div class="thm-container">
+        <div class="sec-title">
+            <h2>Our advisory team</h2>
+            <div class="decor-line"></div>
+        </div>
+        <div class="team-carousel owl-carousel owl-theme owl-loaded" dir="ltr">
+            <div class="item">
+                <img src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
+                                                                                       alt="Awesome Theme">
+                <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
+                    Regular Saving variety plnan.</p>
+                <div class="text-box">
+                    <h3>ahmed mohamed</h3>
+                </div>
             </div>
-            <div class="pading-0">
-                <ul id="component-tab-left" class="style-3 uk-switcher overflow-y">
-                    <li class="uk-active">
-                        <div class="item-image" style=" background-image: url(images/new/service1.jpg);">
-                        </div>
-                        <div class="item-content p-10">
-                            <div class="item-title">
-                                <h4>Lorem Ipsum is simply dummy Lorem Ipsum</h4>
-                            </div>
-                            <div class="item-desc">
-                                <p>Sheesh is a multiplayer board game for up to four players, in which the players race
-                                    their four tokens from start to finish according to dice throws. The game gets
-                                    interesting when one player’s token lands on a block containing an opponent player’s
-                                    token. Then the opponent player’s token is captured and sent to Jail. The winner is
-                                    the first player to get all four of his/her tokens to the finish grid. Play online
-                                    or offline in teams or sole player mode and collect experience points and challenge
-                                    your friends in this game of Sheesh.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="item-image" style=" background-image: url(images/new/service2.jpg);">
-                        </div>
-                        <div class="item-content p-10">
-                            <div class="item-title">
-                                <h4>Lorem Ipsum is simply dummy Lorem Ipsum</h4>
-                            </div>
-                            <div class="item-desc">
-                                <p>Sheesh is a multiplayer board game for up to four players, in which the players race
-                                    their four tokens from start to finish according to dice throws. The game gets
-                                    interesting when one player’s token lands on a block containing an opponent player’s
-                                    token. Then the opponent player’s token is captured and sent to Jail. The winner is
-                                    the first player to get all four of his/her tokens to the finish grid. Play online
-                                    or offline in teams or sole player mode and collect experience points and challenge
-                                    your friends in this game of Sheesh.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="item-image" style=" background-image: url(images/new/service4.jpg);">
-                        </div>
-                        <div class="item-content p-10">
-                            <div class="item-title">
-                                <h4>Lorem Ipsum is simply dummy Lorem Ipsum</h4>
-                            </div>
-                            <div class="item-desc">
-                                <p>Sheesh is a multiplayer board game for up to four players, in which the players race
-                                    their four tokens from start to finish according to dice throws. The game gets
-                                    interesting when one player’s token lands on a block containing an opponent player’s
-                                    token. Then the opponent player’s token is captured and sent to Jail. The winner is
-                                    the first player to get all four of his/her tokens to the finish grid. Play online
-                                    or offline in teams or sole player mode and collect experience points and challenge
-                                    your friends in this game of Sheesh.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="item-image" style=" background-image: url(images/new/service2.jpg);">
-                        </div>
-                        <div class="item-content p-10">
-                            <div class="item-title">
-                                <h4>Lorem Ipsum is simply dummy Lorem Ipsum</h4>
-                            </div>
-                            <div class="item-desc">
-                                <p>Sheesh is a multiplayer board game for up to four players, in which the players race
-                                    their four tokens from start to finish according to dice throws. The game gets
-                                    interesting when one player’s token lands on a block containing an opponent player’s
-                                    token. Then the opponent player’s token is captured and sent to Jail. The winner is
-                                    the first player to get all four of his/her tokens to the finish grid. Play online
-                                    or offline in teams or sole player mode and collect experience points and challenge
-                                    your friends in this game of Sheesh.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="item-image" style=" background-image: url(images/new/service1.jpg);">
-                        </div>
-                        <div class="item-content p-10">
-                            <div class="item-title">
-                                <h4>Lorem Ipsum is simply dummy Lorem Ipsum</h4>
-                            </div>
-                            <div class="item-desc">
-                                <p>Sheesh is a multiplayer board game for up to four players, in which the players race
-                                    their four tokens from start to finish according to dice throws. The game gets
-                                    interesting when one player’s token lands on a block containing an opponent player’s
-                                    token. Then the opponent player’s token is captured and sent to Jail. The winner is
-                                    the first player to get all four of his/her tokens to the finish grid. Play online
-                                    or offline in teams or sole player mode and collect experience points and challenge
-                                    your friends in this game of Sheesh.</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+            <div class="item">
+                <img src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
+                                                                         alt="Awesome Theme">
+                <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
+                    Regular Saving variety plnan.</p>
+                <div class="text-box">
+                    <h3>ahmed mohamed</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
+                                                                         alt="Awesome Theme">
+                <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
+                    Regular Saving variety plnan.</p>
+                <div class="text-box">
+                    <h3>ahmed mohamed</h3>
+                </div>
+            </div>
+            <div class="item"><img src="images/new/team2.png" alt="Awesome Image"><img src="images/new/icon10.png"
+                                                                                       alt="Awesome Theme">
+                <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
+                    Regular Saving variety plnan.</p>
+                <div class="text-box">
+                    <h3>ahmed mohamed</h3>
+                </div>
+            </div>
+            <div class="item"><img src="images/new/team3.png" alt="Awesome Image"><img src="images/new/icon10.png"
+                                                                                       alt="Awesome Theme">
+                <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
+                    Regular Saving variety plnan.</p>
+                <div class="text-box">
+                    <h3>ahmed mohamed</h3>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 <section class="sec-pad gray-bg testimonial-bg testimonial-bg2">
     <div class="thm-container">
         <div class="row">
@@ -382,215 +259,6 @@ include ('Header.php');
             </div>
         </div>
     </div>
-</section>
-<section class="news mt-50 pt-50">
-    <div class="sec-title text-center">
-        <h2>Tax Tips</h2>
-        <div class="decor-line"></div>
-    </div>
-        <div class="nk-news-box">
-            <div class="uk-grid-small uk-child-width-expand@s uk-text-center uk-grid" uk-grid="">
-                <div class="uk-width-1-3@m">
-                    <ul class="style-3 overflow-y uk-tab"
-                        uk-tab="connect: #component-tab; animation: uk-animation-fade">
-                        <li aria-expanded="true" class="uk-active">
-                            <a href="#" scroll-ignore="">
-                                <div class="media">
-                                    <img class="d-flex mr-20 img-fluid rounded " src="images/new/project1.jpg"
-                                         alt="image">
-                                    <div class="media-body">
-
-                                        <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy </p>
-                                        <div class="date-box">
-                                            <span class="fa fa-calendar mr-6"></span> Published in 2015
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li aria-expanded="false">
-                            <a href="#" scroll-ignore="">
-                                <div class="media">
-                                    <img class="d-flex mr-20 img-fluid rounded " src="images/new/project2.jpg"
-                                         alt="image">
-                                    <div class="media-body">
-
-                                        <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy </p>
-                                        <div class="date-box">
-                                            <span class="fa fa-calendar mr-6"></span> Published in 2015
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li aria-expanded="false">
-                            <a href="#" scroll-ignore="">
-                                <div class="media">
-                                    <img class="d-flex mr-20 img-fluid rounded " src="images/new/project3.jpg"
-                                         alt="image">
-                                    <div class="media-body">
-
-                                        <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy </p>
-                                        <div class="date-box">
-                                            <span class="fa fa-calendar mr-6"></span> Published in 2015
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li aria-expanded="false">
-                            <a href="#" scroll-ignore="">
-                                <div class="media">
-                                    <img class="d-flex mr-20 img-fluid rounded " src="images/new/project4.jpg"
-                                         alt="image">
-                                    <div class="media-body">
-
-                                        <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy </p>
-                                        <div class="date-box">
-                                            <span class="fa fa-calendar mr-6"></span> Published in 2015
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li aria-expanded="false">
-                            <a href="#" scroll-ignore="">
-                                <div class="media">
-                                    <img class="d-flex mr-20 img-fluid rounded " src="images/new/project1.jpg"
-                                         alt="image">
-                                    <div class="media-body">
-
-                                        <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy.</p>
-                                        <div class="date-box">
-                                            <span class="fa fa-calendar mr-6"></span> Published in 2015
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="pading-0">
-                    <ul id="component-tab" class="style-3 uk-switcher overflow-y">
-                        <li class="uk-active">
-                            <div class="item-image" style=" background-image: url(images/new/service1.jpg);">
-                            </div>
-                            <div class="item-content p-10">
-                                <div class="item-title">
-                                    <h4>Lorem Ipsum is simply dummy Lorem Ipsum</h4>
-                                </div>
-                                <div class="item-desc">
-                                    <p>Sheesh is a multiplayer board game for up to four players, in which the players
-                                        race
-                                        their four tokens from start to finish according to dice throws. The game gets
-                                        interesting when one player’s token lands on a block containing an opponent
-                                        player’s
-                                        token. Then the opponent player’s token is captured and sent to Jail. The winner
-                                        is
-                                        the first player to get all four of his/her tokens to the finish grid. Play
-                                        online
-                                        or offline in teams or sole player mode and collect experience points and
-                                        challenge
-                                        your friends in this game of Sheesh.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item-image" style=" background-image: url(images/new/service2.jpg);">
-                            </div>
-                            <div class="item-content p-10">
-                                <div class="item-title">
-                                    <h4>Lorem Ipsum is simply dummy Lorem Ipsum</h4>
-                                </div>
-                                <div class="item-desc">
-                                    <p>Sheesh is a multiplayer board game for up to four players, in which the players
-                                        race
-                                        their four tokens from start to finish according to dice throws. The game gets
-                                        interesting when one player’s token lands on a block containing an opponent
-                                        player’s
-                                        token. Then the opponent player’s token is captured and sent to Jail. The winner
-                                        is
-                                        the first player to get all four of his/her tokens to the finish grid. Play
-                                        online
-                                        or offline in teams or sole player mode and collect experience points and
-                                        challenge
-                                        your friends in this game of Sheesh.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item-image" style=" background-image: url(images/new/service4.jpg);">
-                            </div>
-                            <div class="item-content p-10">
-                                <div class="item-title">
-                                    <h4>Lorem Ipsum is simply dummy Lorem Ipsum</h4>
-                                </div>
-                                <div class="item-desc">
-                                    <p>Sheesh is a multiplayer board game for up to four players, in which the players
-                                        race
-                                        their four tokens from start to finish according to dice throws. The game gets
-                                        interesting when one player’s token lands on a block containing an opponent
-                                        player’s
-                                        token. Then the opponent player’s token is captured and sent to Jail. The winner
-                                        is
-                                        the first player to get all four of his/her tokens to the finish grid. Play
-                                        online
-                                        or offline in teams or sole player mode and collect experience points and
-                                        challenge
-                                        your friends in this game of Sheesh.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item-image" style=" background-image: url(images/new/service2.jpg);">
-                            </div>
-                            <div class="item-content p-10">
-                                <div class="item-title">
-                                    <h4>Lorem Ipsum is simply dummy Lorem Ipsum</h4>
-                                </div>
-                                <div class="item-desc">
-                                    <p>Sheesh is a multiplayer board game for up to four players, in which the players
-                                        race
-                                        their four tokens from start to finish according to dice throws. The game gets
-                                        interesting when one player’s token lands on a block containing an opponent
-                                        player’s
-                                        token. Then the opponent player’s token is captured and sent to Jail. The winner
-                                        is
-                                        the first player to get all four of his/her tokens to the finish grid. Play
-                                        online
-                                        or offline in teams or sole player mode and collect experience points and
-                                        challenge
-                                        your friends in this game of Sheesh.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item-image" style=" background-image: url(images/new/service1.jpg);">
-                            </div>
-                            <div class="item-content p-10">
-                                <div class="item-title">
-                                    <h4>Lorem Ipsum is simply dummy Lorem Ipsum</h4>
-                                </div>
-                                <div class="item-desc">
-                                    <p>Sheesh is a multiplayer board game for up to four players, in which the players
-                                        race
-                                        their four tokens from start to finish according to dice throws. The game gets
-                                        interesting when one player’s token lands on a block containing an opponent
-                                        player’s
-                                        token. Then the opponent player’s token is captured and sent to Jail. The winner
-                                        is
-                                        the first player to get all four of his/her tokens to the finish grid. Play
-                                        online
-                                        or offline in teams or sole player mode and collect experience points and
-                                        challenge
-                                        your friends in this game of Sheesh.</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 </section>
 
 <section class="sec-pad project-sec">
@@ -655,40 +323,7 @@ include ('Header.php');
                 class="fa fa-arrow-right"></i></a></div>
     </div>
 </section>
-<section class="sec-pad team-bg team-bg2">
-    <div class="thm-container">
-        <div class="sec-title">
-            <h2>Our advisory team</h2>
-            <div class="decor-line"></div>
-        </div>
-        <div class="team-carousel owl-carousel owl-theme owl-loaded">
-            <div class="item"><img src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
-                                                                                       alt="Awesome Theme">
-                <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
-                    Regular Saving variety plnan.</p>
-                <div class="text-box">
-                    <h3>ahmed mohamed</h3>
-                </div>
-            </div>
-            <div class="item"><img src="images/new/team2.png" alt="Awesome Image"><img src="images/new/icon10.png"
-                                                                                       alt="Awesome Theme">
-                <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
-                    Regular Saving variety plnan.</p>
-                <div class="text-box">
-                    <h3>ahmed mohamed</h3>
-                </div>
-            </div>
-            <div class="item"><img src="images/new/team3.png" alt="Awesome Image"><img src="images/new/icon10.png"
-                                                                                       alt="Awesome Theme">
-                <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
-                    Regular Saving variety plnan.</p>
-                <div class="text-box">
-                    <h3>ahmed mohamed</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!--Start Footer-->
 <?php include ('Footer.php')?>
 <!--End Footer-->
@@ -706,6 +341,7 @@ include ('Header.php');
 <script src="js/stellarnav.js"></script>
 <script type="text/javascript" src="js/modernizr.min.js"></script>
 <script src="js/uikit.min.js"></script>
+<script src="js/lightslider.min.js"></script>
 <script src="js/theme.js"></script>
 </body>
 
