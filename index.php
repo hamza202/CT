@@ -313,7 +313,7 @@ include ('Header.php');
         </div>
     </div>
 </section>
-<section class="why-choose-us mt-50 mb-50">
+<section class="why-choose-us mt-50 mb-50 pt-50 pb-50">
     <div class="container">
         <div class="sec-title">
             <h2>why choose us</h2>
