@@ -1175,10 +1175,12 @@ a.blue-color{
 sup.required{
     color: #ce0000;
 }
-#personalReg .form-grp{
+#personalReg .form-grp,
+#businessReg .form-grp{
     height: 80px;
 }
-#personalReg label{
+#personalReg label,
+#businessReg label{
     margin-bottom: 2px;
 }
 label.error{

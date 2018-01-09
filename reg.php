@@ -214,8 +214,43 @@
                             </div>
                         </div>
                         <div id="speci" class="single-tab-content tab-pane fade">
-                            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <form id="businessReg">
+                                <div class="row">
+                                    <div class="col-sm-6 mt-20">
+                                        <div class="form-grp">
+                                            <label>Name<sup class="required">*</sup></label>
+                                            <input id="b_name" type="text" name="b_name" >
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt-20">
+                                        <div class="form-grp">
+                                            <label>Email<sup class="required">*</sup></label>
+                                            <input id="b_email" type="email" name="b_email">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt-20">
+                                        <div class="form-grp">
+                                            <label>Password<sup class="required">*</sup></label>
+                                            <input id="b_password" type="password" name="b_password">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt-20">
+                                        <div class="form-grp">
+                                            <label>Confirm Password<sup class="required">*</sup></label>
+                                            <input id="b_c_password" type="password" name="b_c_password">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt-20">
+                                        <div class="form-grp">
+                                            <label>Phone Number<sup class="required">*</sup></label>
+                                            <input id="b_number" type="text" name="b_number">
+                                        </div>
+                                    </div>
+                                        <div class="col-sm-12">
+                                        <button type="submit" class="thm-button inverse mt-30 ml-0">Sign Up</button>
+                                        </div>
+                                </div>
+                            </form>
                         </div>
 
                     </div>
@@ -280,6 +315,35 @@
             },
             p_c_password: {
                 equalTo: "#p_password"
+            }
+
+        },
+        submitHandler: function (form) {
+            form.submit();
+        }
+    });
+    $("#businessReg").validate({
+        rules: {
+            b_name: {
+                required: true
+            },
+            b_number: {
+                required: true,
+                number: true
+            },
+            b_email: {
+                required: true,
+                email: true
+            },
+            b_password: {
+                required: true,
+                minlength: 5,
+                atLeastOneLowercaseLetter: false,
+                atLeastOneUppercaseLetter: false,
+                atLeastOneNumber: false
+            },
+            b_c_password: {
+                equalTo: "#b_password"
             }
 
         },
