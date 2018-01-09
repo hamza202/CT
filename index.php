@@ -316,7 +316,7 @@ include ('Header.php');
 <section class="why-choose-us mt-50 mb-50">
     <div class="container">
         <div class="sec-title">
-            <h2>Checklist</h2>
+            <h2>why choose us</h2>
             <div class="decor-line"></div>
         </div>
         <div class="row">
