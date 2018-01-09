@@ -35,7 +35,7 @@
             <div class="col-sm-3 top-logo">
                 <a href="index.php"><img src="images/logo.png" alt="Awesome Image"></a>
             </div>
-            <div id="main-nav" class="stellarnav col-md-7 col-xs-9 ">
+            <div id="main-nav" class="stellarnav col-md-7 col-xs-9 text-capitalize">
                 <ul>
                     <li><a href="index.php">Home</a>
                     </li>

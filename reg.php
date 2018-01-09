@@ -67,25 +67,25 @@
                                 <div class="col-sm-6">
                                     <div class="form-grp">
                                         <label>First Name</label>
-                                        <input id="f-name" type="text" name="f-name">
+                                        <input id="p_f_name" type="text" name="p_f_name">
                                     </div>
                                 </div>
                                     <div class="col-sm-6">
                                         <div class="form-grp">
                                             <label>Last Name</label>
-                                            <input id="l-name" type="text" name="l-name">
+                                            <input id="p_l_name" type="text" name="p_l_name">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 mt-20">
                                         <div class="form-grp">
                                             <label>Date of birth</label>
-                                            <input class="p-10" id="l-name" type="date" name="l-name">
+                                            <input class="p-10" id="p_date" type="date" name="p_date">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 mt-20">
                                         <div class="form-grp">
                                             <label>social insurance number</label>
-                                            <input class="p-10" id="l-name" type="text" name="l-name">
+                                            <input class="p-10" id="p_social" type="text" name="p_social">
                                         </div>
                                     </div>
                                 </div>

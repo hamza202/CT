@@ -177,7 +177,7 @@ include ('Header.php');
 <section class="sec-pad team-bg team-bg2">
     <div class="thm-container">
         <div class="sec-title">
-            <h2>Our advisory team</h2>
+            <h2>Testimonial</h2>
             <div class="decor-line"></div>
         </div>
         <div class="team-carousel owl-carousel owl-theme owl-loaded" dir="ltr">
