@@ -20,6 +20,7 @@
                         </form>
                         <div>
                             <p class="mt-15 d-inline-block">If you do not have an account <a href="reg.php" class="blue-color">register now</a></p>
+                            <p class="mt-15 d-inline-block"><a href="reg.php" class="blue-color">Forgot your password?</a></p>
                         </div>
                     </div>
                 </div>

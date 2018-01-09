@@ -313,6 +313,27 @@ include ('Header.php');
         </div>
     </div>
 </section>
+<section class="why-choose-us mt-50 mb-50">
+    <div class="container">
+        <div class="sec-title">
+            <h2>Checklist</h2>
+            <div class="decor-line"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="img-responsive" src="images/about-cta-bg.jpg">
+            </div>
+            <div class="col-sm-6">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit temporibus vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit temporibus vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit temporibus vero.
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="footer-contacts2">
     <div class="thm-container">
         <div class="col-md-9">
