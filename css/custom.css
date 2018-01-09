@@ -820,6 +820,9 @@ button.log{
 .close-popup:hover{
     background: #222;
 }
+.red-color{
+    color:#d42a1d !important;
+}
 .account-popup {
     background: #ffffff none repeat scroll 0 0;
     position: relative;
@@ -832,7 +835,7 @@ button.log{
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
 
-    width: 970px;
+    width: 480px;
 }
 .account-popup > .row {
     margin: 0;
@@ -845,7 +848,7 @@ button.log{
     background-size: cover;
     float: left;
     height: 100%;
-    padding: 196px 65px;
+    padding: 135px 65px;
     position: relative;
     width: 100%;
     z-index: 0;
@@ -1128,6 +1131,34 @@ html.no-scroll {
 }
 .style-home-page3.header3-inn .inner-banner{
     padding: 60px 0 60px 0;
+}
+a.red-color{
+    font-size: 30px;
+}
+.d-block{
+    display: block !important;
+}
+.d-inline-block{
+    display: inline-block !important;
+}
+a.blue-color{
+    color: #f0ae1e;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.account-user p.d-inline-block{
+    color: #fff;
+}
+.reg .tab-content{
+    background: #F8F8F8;
+}
+.reg input{
+    background: #fff;
+    color: #333;
+}
+.space-25{
+    display: block;
+    margin-top: 25px;
 }
 @media (max-width: 480px){
     .flat-btn {

@@ -3,9 +3,9 @@
     <div class="account-popup-area">
         <div class="account-popup">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="account-user">
-                        <p>Create an Account it takes less than a minute. If you have already account please LOGIN </p>
+                        <p><a href="#" class="red-color">Create a new account</a> <br> it takes less than a minute. If you have already account please LOGIN </p>
                         <form>
                             <h4>Login Form</h4>
                             <div class="field">
@@ -15,31 +15,13 @@
                                 <input type="password" placeholder="Password" />
                             </div>
                             <div class="field">
-                                <input type="submit" value="SEND NOW" class="flat-btn" />
+                                <input type="submit" value="LOGIN" class="flat-btn" />
                             </div>
                         </form>
+                        <div>
+                            <p class="mt-15 d-inline-block">If you do not have an account <a href="#" class="blue-color">register now</a></p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="registration-sec">
-                        <h3>SIGNUP Form</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
-                        <form>
-                            <div class="field">
-                                <input type="text" placeholder="Your Name" />
-                            </div>
-                            <div class="field">
-                                <input type="text" placeholder="Your Email" />
-                            </div>
-                            <div class="field">
-                                <input type="password" placeholder="Type Password" />
-                            </div>
-                            <div class="field">
-                                <input type="password" placeholder="Retype Password" />
-                            </div>
-                            <input type="submit" value="Singup Now" class="flat-btn" />
-                        </form>
-                    </div><!-- Registration sec -->
                 </div>
             </div>
             <span class="close-popup"><i class="fa fa-close"></i></span>
