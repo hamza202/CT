@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<!-- Mirrored from demos.pixelatethemes.com/financepro-2/Demo_5/busniess-growth.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Dec 2017 09:55:14 GMT -->
 <head>
     <meta charset="UTF-8">
     <title>CT || Registration</title>
@@ -19,8 +18,9 @@
     <link rel="stylesheet" href="css/stellarnav.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/space.css">
+
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/space.css">
 </head>
 <body class="style-home-page3 header3-inn">
 <div class="bg-header3-inn">
@@ -61,32 +61,153 @@
                     </div>
                     <div class="tab-content">
                         <div id="des" class="single-tab-content tab-pane fade active in">
-                            <div class="personal">
+                            <div class="personal text-capitalize">
                             <form id="personalReg">
                                 <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-grp">
-                                        <label>First Name</label>
-                                        <input id="p_f_name" type="text" name="p_f_name">
+                                        <label>First Name<sup class="required">*</sup></label>
+                                        <input id="p_f_name" type="text" name="p_f_name" >
                                     </div>
                                 </div>
                                     <div class="col-sm-6">
                                         <div class="form-grp">
-                                            <label>Last Name</label>
+                                            <label>Last Name<sup class="required">*</sup></label>
                                             <input id="p_l_name" type="text" name="p_l_name">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 mt-20">
                                         <div class="form-grp">
-                                            <label>Date of birth</label>
+                                            <label>Date of birth<sup class="required">*</sup></label>
                                             <input class="p-10" id="p_date" type="date" name="p_date">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 mt-20">
                                         <div class="form-grp">
-                                            <label>social insurance number</label>
+                                            <label>social insurance number<sup class="required">*</sup></label>
                                             <input class="p-10" id="p_social" type="text" name="p_social">
                                         </div>
+                                    </div>
+                                    <div class="col-sm-6 mt-20">
+                                        <div class="form-grp">
+                                            <label>Address<sup class="required">*</sup></label>
+                                            <input class="p-10" id="p_address" type="text" name="p_address">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt-20">
+                                        <div class="form-grp">
+                                            <label>Postal Code<sup class="required">*</sup></label>
+                                            <input class="p-10" id="p_code" type="text" name="p_code">
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="container" style="width: 100%">
+                                        <h3 class="mt-30 d-inline-block">Dependence</h3>
+                                    <div class="row">
+                                        <div class="col-sm-4 mt-10">
+                                            <span class="pull-left number">1-</span>
+                                            <div class="form-grp">
+                                                <label class="m-l-12">First name<sup class="required">*</sup></label>
+                                                <input class="p-10" id="d_first_name_1" type="text" name="d_first_name_1">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 mt-10">
+                                            <div class="form-grp">
+                                                <label>last name<sup class="required">*</sup></label>
+                                                <input class="p-10" id="d_last_name_1" type="text" name="d_last_name_1">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 mt-10">
+                                            <div class="form-grp">
+                                                <label>date of birth<sup class="required">*</sup></label>
+                                                <input class="p-10" id="d_date_1" type="text" name="d_date_1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <div class="row">
+                                            <div class="col-sm-4 mt-10">
+                                                <span class="pull-left number">2-</span>
+                                                <div class="form-grp">
+                                                    <label class="m-l-12">First name</label>
+                                                    <input class="p-10" id="d_first_name_2" type="text" name="d_first_name_2">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 mt-10">
+                                                <div class="form-grp">
+                                                    <label>last name</label>
+                                                    <input class="p-10" id="d_last_name_2" type="text" name="d_last_name_2">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 mt-10">
+                                                <div class="form-grp">
+                                                    <label>date of birth</label>
+                                                    <input class="p-10" id="d_date_2" type="text" name="d_date_2">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4 mt-10">
+                                                <span class="pull-left number">3-</span>
+                                                <div class="form-grp">
+                                                    <label class="m-l-12">First name</label>
+                                                    <input class="p-10" id="d_first_name_3" type="text" name="d_first_name_3">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 mt-10">
+                                                <div class="form-grp">
+                                                    <label>last name</label>
+                                                    <input class="p-10" id="d_last_name_3" type="text" name="d_last_name_3">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 mt-10">
+                                                <div class="form-grp">
+                                                    <label>date of birth</label>
+                                                    <input class="p-10" id="d_date_3" type="text" name="d_date_3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4 mt-10">
+                                                <span class="pull-left number">4-</span>
+                                                <div class="form-grp">
+                                                    <label class="m-l-12">First name</label>
+                                                    <input class="p-10" id="d_first_name_4" type="text" name="d_first_name_4">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 mt-10">
+                                                <div class="form-grp">
+                                                    <label>last name</label>
+                                                    <input class="p-10" id="d_last_name_4" type="text" name="d_last_name_4">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 mt-10">
+                                                <div class="form-grp">
+                                                    <label>date of birth</label>
+                                                    <input class="p-10" id="d_date_4" type="text" name="d_date_4">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                        <div class="col-sm-12 mt-20">
+                                            <div class="form-grp">
+                                                <label>Email<sup class="required">*</sup></label>
+                                                <input id="p_email" type="email" name="p_email">
+                                            </div>
+                                        </div>
+                                            <div class="col-sm-6 mt-20">
+                                                <div class="form-grp">
+                                                    <label>Password<sup class="required">*</sup></label>
+                                                    <input id="p_password" type="password" name="p_password">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 mt-20">
+                                                <div class="form-grp">
+                                                    <label>Confirm Password<sup class="required">*</sup></label>
+                                                    <input id="p_c_password" type="password" name="p_c_password">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="thm-button inverse mt-30 ml-0">Sign Up</button>
                                     </div>
                                 </div>
                             </form>
@@ -115,9 +236,61 @@
 <script src="plugins/jquery.counterup.min.js"></script>
 <script src="js/stellarnav.js"></script>
 <script type="text/javascript" src="js/modernizr.min.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script>
+    $("#personalReg").validate({
+        rules: {
+            p_f_name: {
+                required: true
+            },
+            p_l_name: {
+                required: true
+            },
+            p_date: {
+                required: true
+            },
+            p_social: {
+                required: true
+            },
+            p_address: {
+                required: true
+            },
+            p_code: {
+                required: true
+            },
+            d_first_name_1: {
+                required: true
+            },
+            d_last_name_1: {
+                required: true
+            },
+            d_date_1: {
+                required: true
+            },
+            p_email: {
+                required: true,
+                email: true
+            },
+            p_password: {
+                required: true,
+                minlength: 5,
+                atLeastOneLowercaseLetter: false,
+                atLeastOneUppercaseLetter: false,
+                atLeastOneNumber: false
+            },
+            p_c_password: {
+                equalTo: "#p_password"
+            }
+
+        },
+        submitHandler: function (form) {
+            form.submit();
+        }
+    });
+
+</script>
 <script src="js/uikit.min.js"></script>
 <script src="js/theme.js"></script>
 </body>
 
-<!-- Mirrored from demos.pixelatethemes.com/financepro-2/Demo_5/busniess-growth.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Dec 2017 09:55:18 GMT -->
 </html>

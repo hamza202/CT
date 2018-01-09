@@ -1150,7 +1150,15 @@ a.blue-color{
     color: #fff;
 }
 .reg .tab-content{
-    background: #F8F8F8;
+    background: #f0f0f0;
+}
+.number{
+    position: relative;
+    top: 40px;
+    left: -18px;
+}
+.m-l-12{
+    margin-left: -12px
 }
 .reg input{
     background: #fff;
@@ -1159,6 +1167,23 @@ a.blue-color{
 .space-25{
     display: block;
     margin-top: 25px;
+}
+.product-tab-box .tab-content h3{
+    color: #333;
+    font-weight: 600;
+}
+sup.required{
+    color: #ce0000;
+}
+#personalReg .form-grp{
+    height: 80px;
+}
+#personalReg label{
+    margin-bottom: 2px;
+}
+label.error{
+    color: #ce0000;
+    font-size: 12px;
 }
 @media (max-width: 480px){
     .flat-btn {

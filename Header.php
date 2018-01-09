@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="account-user">
-                        <p><a href="#" class="red-color">Create a new account</a> <br> it takes less than a minute. If you have already account please LOGIN </p>
+                        <p><a href="reg.php" class="red-color">Create a new account</a> <br> it takes less than a minute. If you have already account please LOGIN </p>
                         <form>
                             <h4>Login Form</h4>
                             <div class="field">
@@ -19,7 +19,7 @@
                             </div>
                         </form>
                         <div>
-                            <p class="mt-15 d-inline-block">If you do not have an account <a href="#" class="blue-color">register now</a></p>
+                            <p class="mt-15 d-inline-block">If you do not have an account <a href="reg.php" class="blue-color">register now</a></p>
                         </div>
                     </div>
                 </div>

@@ -30,7 +30,7 @@
 include ('Header.php');
 ?>
 <!--End Header-->
-<div id="minimal-bootstrap-carousel" data-ride="carousel" class="carousel slide carousel-fade shop-slider">
+<div id="minimal-bootstrap-carousel" data-ride="carousel" class="carousel slide carousel-fade shop-slider text-capitalize">
     <!-- Wrapper for slides-->
     <div role="listbox" class="carousel-inner">
         <div style="background-image: url(images/new/slider5.jpg);background-position: center right;"
