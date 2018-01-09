@@ -67,9 +67,7 @@
                             <li><a href="RentalIncome.php">Rental Income</a></li>
                         </ul>
                     </li>
-                    <li><a target="_blank"
-                           href="https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2017.html">Tax
-                            Tips</a></li>
+                    <li><a href="Taxtip.php">Tax Tips</a></li>
                     <li><a href="contact.php">contact us</a></li>
                 </ul>
             </div>
