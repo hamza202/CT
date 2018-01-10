@@ -1443,6 +1443,22 @@ h3.Dependence{
 .End-status{
     color:#d42a1d ;
 }
+.file-caption{
+    height: 40px;
+}
+.btn-file{
+    height: 40px;
+    line-height: 28px;
+    background-color: #d42a1d;
+    border-color: transparent;
+    transition: all 0.5s;
+}
+.btn-file:hover{
+    background-color: #333;
+}
+.file-caption .file-caption-name{
+    margin-top: -8px;
+}
 @media (max-width: 480px){
     .flat-btn {
         border: 1px solid transparent;

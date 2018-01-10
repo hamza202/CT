@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="plugins/owl.carousel-2/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="plugins/bootstrap-select/dist/css/bootstrap-select.min.css">
     <!-- main stylesheet-->
+
     <link rel="stylesheet" href="css/stellarnav.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
