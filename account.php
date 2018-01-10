@@ -81,7 +81,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="user-pro-section mb-50">
-                        <form>
+                        <form id="my_account">
                         <!-- profile-details -->
                         <div class="profile-details section pb-0">
                             <h2>My Account Details</h2>
@@ -170,12 +170,12 @@
 
                                 <div class="form-group ml-10">
                                     <label>New password</label>
-                                    <input type="password" class="form-control" style="width:93%;">
+                                    <input type="password" id="a_password" name="a_password" class="form-control" style="width:93%;">
                                 </div>
 
                                 <div class="form-group ml-10">
                                     <label>Confirm password</label>
-                                    <input type="password" class="form-control" style="width:93%;">
+                                    <input type="password" name="a_c_password" class="form-control" style="width:93%;">
                                 </div>
                             </div><!-- change-password -->
                             <button class="btn custom-red-buttom ml-40">Update Profile</button>
@@ -206,6 +206,27 @@
 <script src="js/stellarnav.js"></script>
 <script type="text/javascript" src="js/modernizr.min.js"></script>
 <script src="js/jquery.validate.js"></script>
+<script>
+    $("#my_account").validate({
+        rules: {
+
+            a_password: {
+                required: true,
+                minlength: 5,
+                atLeastOneLowercaseLetter: false,
+                atLeastOneUppercaseLetter: false,
+                atLeastOneNumber: false
+            },
+            a_c_password: {
+                equalTo: "#a_password"
+            }
+
+        },
+        submitHandler: function (form) {
+            form.submit();
+        }
+    });
+</script>
 <script src="js/uikit.min.js"></script>
 <script src="js/theme.js"></script>
 </body>

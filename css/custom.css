@@ -1203,8 +1203,8 @@ sup.required{
     margin-bottom: 2px;
 }
 label.error{
-    color: #ce0000;
-    font-size: 12px;
+    color: #ce0000 !important;
+    font-size: 12px !important;
 }
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
     background-color: #d42a1d;
@@ -1431,6 +1431,15 @@ label.error{
 h3.Dependence{
     color: #000;
     font-size: 20px;
+}
+.table-foldersystem tbody tr td:first-child{
+    width:1%;
+}
+.ac-status{
+    color: #28cd3d;
+}
+.End-status{
+    color:#d42a1d ;
 }
 @media (max-width: 480px){
     .flat-btn {
