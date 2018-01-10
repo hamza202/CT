@@ -182,7 +182,7 @@ include ('Header.php');
         </div>
         <div class="team-carousel owl-carousel owl-theme owl-loaded" dir="ltr">
             <div class="item">
-                <img src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
+                <img class="team-img" src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
                                                                                        alt="Awesome Theme">
                 <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
                     Regular Saving variety plnan.</p>
@@ -191,7 +191,7 @@ include ('Header.php');
                 </div>
             </div>
             <div class="item">
-                <img src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
+                <img class="team-img" src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
                                                                          alt="Awesome Theme">
                 <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
                     Regular Saving variety plnan.</p>
@@ -200,7 +200,7 @@ include ('Header.php');
                 </div>
             </div>
             <div class="item">
-                <img src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
+                <img class="team-img" src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
                                                                          alt="Awesome Theme">
                 <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
                     Regular Saving variety plnan.</p>
@@ -208,7 +208,7 @@ include ('Header.php');
                     <h3>ahmed mohamed</h3>
                 </div>
             </div>
-            <div class="item"><img src="images/new/team2.png" alt="Awesome Image"><img src="images/new/icon10.png"
+            <div class="item"><img class="team-img" src="images/new/team2.png" alt="Awesome Image"><img src="images/new/icon10.png"
                                                                                        alt="Awesome Theme">
                 <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
                     Regular Saving variety plnan.</p>
@@ -216,7 +216,7 @@ include ('Header.php');
                     <h3>ahmed mohamed</h3>
                 </div>
             </div>
-            <div class="item"><img src="images/new/team3.png" alt="Awesome Image"><img src="images/new/icon10.png"
+            <div class="item"><img class="team-img" src="images/new/team3.png" alt="Awesome Image"><img src="images/new/icon10.png"
                                                                                        alt="Awesome Theme">
                 <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
                     Regular Saving variety plnan.</p>

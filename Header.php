@@ -20,7 +20,7 @@
                         </form>
                         <div>
                             <p class="mt-15 d-inline-block">If you do not have an account <a href="reg.php" class="blue-color">register now</a></p>
-                            <p class="mt-15 d-inline-block"><a href="reg.php" class="blue-color">Forgot your password?</a></p>
+                            <p class="mt-15 d-inline-block"><a href="forgot.php" class="blue-color">Forgot your password?</a></p>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                 </ul>
             </div>
             <div class="col-md-2 col-sm-3 col-xs-4">
-                <div class="btn-group btn-group-hover  name-acc pull-right">
+                <div class="btn-group btn-group-hover  name-acc pull-right hidden">
                     <button class="btn btn-large">Hamza</button>
                     <button class="btn btn-large dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
                     <ul class="dropdown-menu">
@@ -85,7 +85,7 @@
                         <li><a href="#">Logout <i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
-                <div class="popup-client hidden ">
+                <div class="popup-client  ">
                     <span><i class="fa fa-user"></i> <span class="hidden-xs">/ Signup</span></span>
                 </div>
             </div>
