@@ -48,7 +48,7 @@
     </section>
 </div>
 
-<section id="main" class="clearfix  ad-profile-page">
+<section id="main" class="clearfix Account ad-profile-page">
     <div class="container">
         <div class="ad-profile section">
             <div class="user-profile">
@@ -155,27 +155,27 @@
                                 <div class="col-sm-12">
                                     <div class="form-group ml-10">
                                         <label for="name-three">Email</label>
-                                        <input type="Email" class="form-control" style="width:93%;">
+                                        <input type="Email" class="form-control" >
                                     </div>
                                 </div>
                             </div>
                         </div>
                             <div class="change-password section">
-                                <h3 class="Dependence ml-10">Change password</h3>
+                                <h3 class="Dependence ml-10 mb-10">Change password</h3>
                                 <!-- form -->
                                 <div class="form-group ml-10">
                                     <label>Old Password</label>
-                                    <input type="password" class="form-control" style="width:93%;" >
+                                    <input type="password" class="form-control"  >
                                 </div>
 
                                 <div class="form-group ml-10">
                                     <label>New password</label>
-                                    <input type="password" id="a_password" name="a_password" class="form-control" style="width:93%;">
+                                    <input type="password" id="a_password" name="a_password" class="form-control" >
                                 </div>
 
                                 <div class="form-group ml-10">
                                     <label>Confirm password</label>
-                                    <input type="password" name="a_c_password" class="form-control" style="width:93%;">
+                                    <input type="password" name="a_c_password" class="form-control" >
                                 </div>
                             </div><!-- change-password -->
                             <button class="btn custom-red-buttom ml-40">Update Profile</button>

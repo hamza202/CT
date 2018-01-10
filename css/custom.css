@@ -1329,10 +1329,12 @@ label.error{
 }
 
 .user-pro-section .section {
-    background-color: #fff;
     padding: 15px 35px;
 }
-
+.Account .profile{
+    background-color: #f8f8f8;
+    padding: 0 5%;
+}
 .user-pro-section select,
 .user-pro-section input {
     color: #a0a0a0;
@@ -1353,7 +1355,7 @@ label.error{
 }
 
 .user-pro-section .form-control {
-    width:85%;
+    width:100%;
 }
 
 .user-pro-section .preferences-settings label,
@@ -1499,7 +1501,7 @@ h3.Dependence{
 }
 @media (min-width: 767px){
     .dependence input{
-        width: 76% !important;
+        width: 100% !important;
     }
 }
 @media (min-width: 992px){

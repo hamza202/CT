@@ -4,7 +4,7 @@
 <!-- Mirrored from demos.pixelatethemes.com/financepro-2/Demo_5/busniess-growth.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Dec 2017 09:55:14 GMT -->
 <head>
     <meta charset="UTF-8">
-    <title>CT || Uploaded</title>
+    <title>CT || Reject</title>
     <!-- mobile responsive meta-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="page-title">
-                        <h3>Uploaded</h3>
+                        <h3>Reject</h3>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -38,7 +38,7 @@
                         <div class="thm-container">
                             <ul class="list-inline">
                                 <li><a href="index.php">Home</a></li>
-                                <li><span>Uploaded</span></li>
+                                <li><span>Reject</span></li>
                             </ul>
                         </div>
                     </div>
@@ -70,9 +70,9 @@
 
             <ul class="user-menu list-inline">
                 <li><a href="account.php">My Account</a></li>
-                <li class="active"><a href="uploaded.php">Uploaded</a></li>
-                <li><a href="accept.php">Accept</a></li>
-                <li><a href="reject.php">Reject </a></li>
+                <li ><a href="uploaded.php">Uploaded</a></li>
+                <li ><a href="accept.php">Accept</a></li>
+                <li class="active"><a href="reject.php">Reject </a></li>
                 <li><a href="UploadNewFile.php">Upload New File</a></li>
             </ul>
         </div><!-- ad-profile -->
