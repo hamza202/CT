@@ -104,6 +104,19 @@
                     <input id="subject" type="text" name="subject" required>
                   </div>
                 </div>
+                  <div class="col-md-12">
+                  <div class="form-grp">
+                      <label class="text-capitalize">Interested In the following services:</label>
+                      <select class="form-control">
+                          <option value="#">Accounting</option>
+                          <option value="#">Bookkeeping</option>
+                          <option value="#">Tax (Personal)</option>
+                          <option value="#">Tax (Corporate)</option>
+                          <option value="#">Business Advisory</option>
+                          <option value="#">Business Incorporation</option>
+                      </select>
+                  </div>
+                  </div>
                 <div class="col-md-12">
                   <div class="form-grp">
                     <label>Message</label>

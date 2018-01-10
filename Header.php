@@ -36,7 +36,7 @@
             <div class="col-sm-3 top-logo">
                 <a href="index.php"><img src="images/logo.png" alt="Awesome Image"></a>
             </div>
-            <div id="main-nav" class="stellarnav col-md-7 col-xs-9 text-capitalize">
+            <div id="main-nav" class="stellarnav col-md-7 col-sm-9 col-xs-8 text-capitalize">
                 <ul>
                     <li><a href="index.php">Home</a>
                     </li>
@@ -72,8 +72,20 @@
                     <li><a href="contact.php">contact us</a></li>
                 </ul>
             </div>
-            <div class="col-md-2 col-xs-3">
-                <div class="popup-client">
+            <div class="col-md-2 col-sm-3 col-xs-4">
+                <div class="btn-group btn-group-hover  name-acc pull-right">
+                    <button class="btn btn-large">Hamza</button>
+                    <button class="btn btn-large dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="account.php">My Account</a></li>
+                        <li><a href="uploaded.php">Uploaded</a></li>
+                        <li><a href="accept.php">Accept</a></li>
+                        <li><a href="reject.php">Reject</a></li>
+                        <li><a href="UploadNewFile.php">Upload New File</a></li>
+                        <li><a href="#">Logout <i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="popup-client hidden ">
                     <span><i class="fa fa-user"></i> <span class="hidden-xs">/ Signup</span></span>
                 </div>
             </div>

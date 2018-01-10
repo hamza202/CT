@@ -1,5 +1,10 @@
 "use strict"; // Start of use strict
-
+jQuery(function($) {
+    $('.btn-group-hover').hover(function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+    }, function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(500).slideUp();
+    });});
 /*************************
  Contect open
  *************************/
