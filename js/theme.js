@@ -5,6 +5,30 @@ jQuery(function($) {
     }, function() {
         $(this).find('.dropdown-menu').first().stop(true, true).delay(500).slideUp();
     });});
+jQuery(function($) {
+    $('.btn-group-hover').hover(function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+    }, function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(500).slideUp();
+    });});
+(function () {
+
+    $('.categories_list').on('click', 'a', function (e) {
+        if ($(this).parent().children('ul').length) {
+            $(this).parent().toggleClass('active').end().next().slideToggle();
+        }
+    });
+    $('.categories_list a').on('click', 'span', function (e) {
+        e.preventDefault();
+    });
+
+    $('.categories_list > li > a > span').on('click', function (e) {
+        if ($(this).parent().children('ul').length) {
+            $(this).toggleClass('scheme_color').toggleClass('color_dark');
+        }
+    });
+
+})();
 /*************************
  Contect open
  *************************/
@@ -573,19 +597,19 @@ jQuery(document).on('ready', function() {
 });
 
 
-$(function(){
-
-    var url = window.location.pathname,
-        urlRegExp = new RegExp(url.replace(/\/$/,'') + "$"); // create regexp to match current url pathname and remove trailing slash if present as it could collide with the link in navigation in case trailing slash wasn't present there
-    // now grab every link from the navigation
-    $('.single-service-list-widget ul li a').each(function(){
-        // and test its normalized href against the url pathname regexp
-        if(urlRegExp.test(this.href.replace(/\/$/,''))){
-            $(this).addClass('active');
-        }
-    });
-
-});
+// $(function(){
+//
+//     var url = window.location.pathname,
+//         urlRegExp = new RegExp(url.replace(/\/$/,'') + "$"); // create regexp to match current url pathname and remove trailing slash if present as it could collide with the link in navigation in case trailing slash wasn't present there
+//     // now grab every link from the navigation
+//     $('.single-service-list-widget ul li a').each(function(){
+//         // and test its normalized href against the url pathname regexp
+//         if(urlRegExp.test(this.href.replace(/\/$/,''))){
+//             $(this).addClass('active');
+//         }
+//     });
+//
+// });
 
 
 jQuery(document).ready(function(){

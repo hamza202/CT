@@ -3050,14 +3050,7 @@ a.loadmore:hover {
     transition: all .4s ease;
 	font-weight: bold;
 }
-.single-sidebar-widget .single-service-list-widget ul li a:after {
-    content: "\f105";
-    font-family: FontAwesome;
-    color: #C8C8C8;
-    font-size: 14px;
-    position: absolute;
-    right: 20px;
-}
+
 .single-sidebar-widget .single-service-list-widget ul li a:hover {
     border-left-color: #d42a1d !important;
     color: #403C56;

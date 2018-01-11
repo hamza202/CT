@@ -2,13 +2,26 @@
     <div class="right-box">
         <div class="single-sidebar-widget">
             <div class="single-service-list-widget">
-                <ul>
-                    <li><a href="Bookkeeping.php">Bookkeeping</a></li>
-                    <li><a href="Payroll.php">Payroll</a></li>
-                    <li><a href="IncomeTax.php">Income Tax</a></li>
-                    <li><a href="PersonalTax.php">Personal Tax</a></li>
-                    <li><a href="corparateTax.php">Corparate Tax</a></li>
-                    <li><a href="NewBusinessSetup.php">New Business Setup</a></li>
+                <ul class="categories_list">
+                    <li class="active">
+                        <a href="#" class="f_size_large scheme_color d_block relative">
+                            <b>Women</b>
+                            <span class="bg_light_color_1 r_corners f_right color_dark talign_c"></span>
+                        </a>
+                        <!--second level-->
+                        <ul>
+                                    <li><a href="#" class="color_dark d_block">Evening Dresses</a></li>
+                                    <li><a href="#" class="color_dark d_block">Casual Dresses</a></li>
+                                    <li><a href="#" class="color_dark d_block">Party Dresses</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class="f_size_large color_dark d_block relative">
+                            <b>Kids</b>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
