@@ -231,10 +231,10 @@ function clientCarousel2() {
 function teamCarousel() {
     if ($('.team-carousel').length) {
         $('.team-carousel').owlCarousel({
-            loop: false,
+            loop: true,
             margin: 30,
             nav: true,
-            dots: false,
+            dots: true,
             autoWidth: true,
             autoplay: true,
             autoplayTimeout: 3000,

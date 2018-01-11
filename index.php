@@ -231,7 +231,7 @@ include ('Header.php');
 <section class="sec-pad gray-bg testimonial-bg testimonial-bg2">
     <div class="thm-container">
         <div class="row">
-            <div class="right-img"><img src="images/new/bg9.png" alt=""></div>
+            <div class="right-img" data-animation="animated fadeInUp"><img  src="images/new/bg9.png" alt=""></div>
             <div class="col-md-8 pull-left">
                 <div class="right-box">
                     <div class="sec-title">
@@ -242,15 +242,15 @@ include ('Header.php');
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non </p>
                         <ul class="list-inline">
                             <li>
-                                <h3>08</h3>
+                                <h3><span class="counter">08</span></h3>
                                 <p>Years Experience</p>
                             </li>
                             <li>
-                                <h3>25<span>K</span></h3>
+                                <h3><span class="counter">25</span><span>K</span></h3>
                                 <p>Happy Customers</p>
                             </li>
                             <li>
-                                <h3>100<span>%</span></h3>
+                                <h3><span class="counter">100</span><span>%</span></h3>
                                 <p>Satisfaction</p>
                             </li>
                         </ul>
@@ -313,7 +313,7 @@ include ('Header.php');
         </div>
     </div>
 </section>
-<section class="why-choose-us mt-50 mb-50 pt-50 pb-50">
+<section class="why-choose-us sec-pad">
     <div class="container">
         <div class="sec-title">
             <h2>why choose us</h2>
