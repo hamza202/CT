@@ -1468,6 +1468,9 @@ h3.Dependence{
     height: 130px;
     width: 130px;
 }
+.single-project-item .img-holder img{
+    height: 230px;
+}
 @media (max-width: 480px){
     .flat-btn {
         border: 1px solid transparent;
