@@ -13,6 +13,11 @@ jQuery(function($) {
     });});
 (function () {
 
+    $('.categories_list li').each(function(){
+        if ($(this).hasClass('active')){
+            $(this).parent().parent().addClass('active')
+        }
+    });
     $('.categories_list').on('click', 'a', function (e) {
         if ($(this).parent().children('ul').length) {
             $(this).parent().toggleClass('active').end().next().slideToggle();
@@ -597,19 +602,19 @@ jQuery(document).on('ready', function() {
 });
 
 
-// $(function(){
-//
-//     var url = window.location.pathname,
-//         urlRegExp = new RegExp(url.replace(/\/$/,'') + "$"); // create regexp to match current url pathname and remove trailing slash if present as it could collide with the link in navigation in case trailing slash wasn't present there
-//     // now grab every link from the navigation
-//     $('.single-service-list-widget ul li a').each(function(){
-//         // and test its normalized href against the url pathname regexp
-//         if(urlRegExp.test(this.href.replace(/\/$/,''))){
-//             $(this).addClass('active');
-//         }
-//     });
-//
-// });
+$(function(){
+
+    var url = window.location.pathname,
+        urlRegExp = new RegExp(url.replace(/\/$/,'') + "$"); // create regexp to match current url pathname and remove trailing slash if present as it could collide with the link in navigation in case trailing slash wasn't present there
+    // now grab every link from the navigation
+    $('.single-service-list-widget ul li a').each(function(){
+        // and test its normalized href against the url pathname regexp
+        if(urlRegExp.test(this.href.replace(/\/$/,''))){
+            $(this).addClass('active');
+        }
+    });
+
+});
 
 
 jQuery(document).ready(function(){

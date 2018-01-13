@@ -7,7 +7,6 @@
     <!-- mobile responsive meta-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--uikit-->
-    <link rel="stylesheet" href="css/uikit.css">
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="plugins/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="plugins/fncp-icon/style.css">
@@ -23,14 +22,16 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/space.css">
     <link rel="stylesheet" href="css/custom.css">
+
 </head>
 <body class="style-home-page3">
 <!--Start Header-->
 <?php
-include ('Header.php');
+include('Header.php');
 ?>
 <!--End Header-->
-<div id="minimal-bootstrap-carousel" data-ride="carousel" class="carousel slide carousel-fade shop-slider text-capitalize">
+<div id="minimal-bootstrap-carousel" data-ride="carousel"
+     class="carousel slide carousel-fade shop-slider text-capitalize">
     <!-- Wrapper for slides-->
     <div role="listbox" class="carousel-inner">
         <div style="background-image: url(images/new/slider5.jpg);background-position: center right;"
@@ -42,8 +43,8 @@ include ('Header.php');
                             <h2 data-animation="animated fadeInUp">Lorem Ipsum is simply dummy</h2>
                             <p data-animation="animated fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit, sed do eiusmod<br>tempor incididunt ut labore adipiscing</p><a
-                                data-animation="animated fadeInLeft" href="#" class="thm-button">Learn more <i
-                                class="fa fa-arrow-right"></i></a>
+                                    data-animation="animated fadeInLeft" href="#" class="thm-button">Learn more <i
+                                        class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -59,7 +60,7 @@ include ('Header.php');
                             <p data-animation="animated fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit, sed do eiusmod<br>tempor incididunt ut labore adipiscing</p>
                             <a data-animation="animated fadeInLeft" href="#" class="thm-button">Learn more <i
-                                    class="fa fa-arrow-right"></i></a>
+                                        class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +75,7 @@ include ('Header.php');
                             <h2 data-animation="animated fadeInUp">Lorem Ipsum is simply dummy</h2>
                             <p data-animation="animated fadeInDown">We provide expert financial advice for businesses
                                 and individuals</p><a data-animation="animated fadeInLeft" href="#" class="thm-button">Learn
-                            more <i class="fa fa-arrow-right"></i></a>
+                                more <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -82,10 +83,11 @@ include ('Header.php');
         </div>
     </div>
     <!-- Controls--><a href="#minimal-bootstrap-carousel" role="button" data-slide="prev" class="left carousel-control"><i
-        class="fa fa-angle-left"></i><span class="sr-only">Previous</span></a><a href="#minimal-bootstrap-carousel"
-                                                                                 role="button" data-slide="next"
-                                                                                 class="right carousel-control"><i
-        class="fa fa-angle-right"></i><span class="sr-only">Next</span></a>
+                class="fa fa-angle-left"></i><span class="sr-only">Previous</span></a><a
+            href="#minimal-bootstrap-carousel"
+            role="button" data-slide="next"
+            class="right carousel-control"><i
+                class="fa fa-angle-right"></i><span class="sr-only">Next</span></a>
 </div>
 
 
@@ -176,14 +178,18 @@ include ('Header.php');
 
 <section class="sec-pad team-bg team-bg2">
     <div class="thm-container">
-        <div class="sec-title">
+        <div class="sec-title pull-left">
             <h2>Testimonial</h2>
             <div class="decor-line"></div>
         </div>
+        <div class="add-feed-back pull-right">
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#feedBack">Add Your Feedback
+                <i class="fa fa-plus"></i></button>
+        </div>
+        <div class="clearfix"></div>
         <div class="team-carousel owl-carousel owl-theme owl-loaded" dir="ltr">
             <div class="item">
-                <img class="team-img" src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
-                                                                                       alt="Awesome Theme">
+                <img src="images/new/icon10.png" alt="Awesome Theme">
                 <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
                     Regular Saving variety plnan.</p>
                 <div class="text-box">
@@ -191,8 +197,7 @@ include ('Header.php');
                 </div>
             </div>
             <div class="item">
-                <img class="team-img" src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
-                                                                         alt="Awesome Theme">
+                <img src="images/new/icon10.png" alt="Awesome Theme">
                 <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
                     Regular Saving variety plnan.</p>
                 <div class="text-box">
@@ -200,24 +205,23 @@ include ('Header.php');
                 </div>
             </div>
             <div class="item">
-                <img class="team-img" src="images/new/team1.png" alt="Awesome Image"><img src="images/new/icon10.png"
-                                                                         alt="Awesome Theme">
+                <img src="images/new/icon10.png" alt="Awesome Theme">
                 <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
                     Regular Saving variety plnan.</p>
                 <div class="text-box">
                     <h3>ahmed mohamed</h3>
                 </div>
             </div>
-            <div class="item"><img class="team-img" src="images/new/team2.png" alt="Awesome Image"><img src="images/new/icon10.png"
-                                                                                       alt="Awesome Theme">
+            <div class="item">
+                <img src="images/new/icon10.png" alt="Awesome Theme">
                 <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
                     Regular Saving variety plnan.</p>
                 <div class="text-box">
                     <h3>ahmed mohamed</h3>
                 </div>
             </div>
-            <div class="item"><img class="team-img" src="images/new/team3.png" alt="Awesome Image"><img src="images/new/icon10.png"
-                                                                                       alt="Awesome Theme">
+            <div class="item">
+                <img src="images/new/icon10.png" alt="Awesome Theme">
                 <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt Saving
                     Regular Saving variety plnan.</p>
                 <div class="text-box">
@@ -228,32 +232,21 @@ include ('Header.php');
     </div>
 </section>
 
-<section class="sec-pad gray-bg testimonial-bg testimonial-bg2">
+<section class="sec-pad gray-bg testimonial-section">
     <div class="thm-container">
         <div class="row">
-            <div class="right-img" data-animation="animated fadeInUp"><img  src="images/new/bg9.png" alt=""></div>
-            <div class="col-md-8 pull-left">
-                <div class="right-box">
-                    <div class="sec-title">
-                        <h2 class="color-white">Helping Small Business</h2>
-                        <div class="decor-line"></div>
-                    </div>
-                    <div class="statics">
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non </p>
-                        <ul class="list-inline">
-                            <li>
-                                <h3><span class="counter">08</span></h3>
-                                <p>Years Experience</p>
-                            </li>
-                            <li>
-                                <h3><span class="counter">25</span><span>K</span></h3>
-                                <p>Happy Customers</p>
-                            </li>
-                            <li>
-                                <h3><span class="counter">100</span><span>%</span></h3>
-                                <p>Satisfaction</p>
-                            </li>
-                        </ul>
+            <div class="sec-title text-center">
+                <h2 class="color-white">The Deadline Of The Tax</h2>
+                <div class="decor-line"></div>
+            </div>
+            <div class="col-xs-12">
+                <div id="countdown">
+                    <div id='tiles'></div>
+                    <div class="labels">
+                        <li>Days</li>
+                        <li>Hours</li>
+                        <li>Mins</li>
+                        <li class="hidden-xs">Secs</li>
                     </div>
                 </div>
             </div>
@@ -325,9 +318,15 @@ include ('Header.php');
             </div>
             <div class="col-sm-6">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit temporibus vero.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit temporibus vero.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit temporibus vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
+                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
+                    temporibus vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
+                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
+                    temporibus vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
+                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
+                    temporibus vero.
 
                 </p>
             </div>
@@ -338,21 +337,89 @@ include ('Header.php');
     <div class="thm-container">
         <div class="col-md-9">
             <h2>All of our planners believe that everyone, rich or not so rich, deserves great <strong>financial advice
-                and planning services</strong></h2>
+                    and planning services</strong></h2>
         </div>
         <div class="col-md-3"><a data-animation="animated fadeInLeft" href="#" class="thm-button">Contact Us <i
-                class="fa fa-arrow-right"></i></a></div>
+                        class="fa fa-arrow-right"></i></a></div>
     </div>
 </section>
 
+<!-- Modal -->
+<div id="feedBack" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Add Your Feedback </h4>
+            </div>
+            <div class="modal-body">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="feed_name">Name<sup class="required">*</sup></label>
+                        <input type="text" class="form-control" id="feed_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea minlength="15" maxlength="500" type="password" class="form-control" id="message"
+                                  required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 <!--Start Footer-->
-<?php include ('Footer.php')?>
+<?php include('Footer.php') ?>
 <!--End Footer-->
 
 <!--End Contact-->
 <!-- helper js-->
 <script src="plugins/jquery.min.js"></script>
 <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script>
+    var target_date = new Date().getTime() + (1000*3600*24); // set the countdown date
+    var days, hours, minutes, seconds; // variables for time units
+
+    var countdown = document.getElementById("tiles"); // get tag element
+
+    getCountdown();
+
+    setInterval(function () { getCountdown(); }, 1000);
+
+    function getCountdown(){
+
+        // find the amount of "seconds" between now and target
+        var current_date = new Date().getTime();
+        var seconds_left = (target_date - current_date) / 1000;
+
+        days = pad( parseInt(seconds_left / 86400) );
+        seconds_left = seconds_left % 86400;
+
+        hours = pad( parseInt(seconds_left / 3600) );
+        seconds_left = seconds_left % 3600;
+
+        minutes = pad( parseInt(seconds_left / 60) );
+        seconds = pad( parseInt( seconds_left % 60 ) );
+
+        // format countdown string + set tag value
+        countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span class='hidden-xs'>" + seconds + "</span>";
+    }
+
+    function pad(n) {
+        return (n < 10 ? '0' : '') + n;
+    }
+
+
+</script>
 <script src="plugins/owl.carousel-2/owl.carousel.min.js"></script>
 <script src="plugins/jquery.mixitup.min.js"></script>
 <script src="plugins/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
@@ -361,7 +428,6 @@ include ('Header.php');
 <script src="plugins/jquery.counterup.min.js"></script>
 <script src="js/stellarnav.js"></script>
 <script type="text/javascript" src="js/modernizr.min.js"></script>
-<script src="js/uikit.min.js"></script>
 <script src="js/lightslider.min.js"></script>
 <script src="js/theme.js"></script>
 </body>

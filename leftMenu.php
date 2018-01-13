@@ -3,20 +3,32 @@
         <div class="single-sidebar-widget">
             <div class="single-service-list-widget">
                 <ul class="categories_list">
-                    <li class="active">
+                    <li >
                         <a href="#" class="f_size_large scheme_color d_block relative">
                             <b>Women</b>
                             <span class="bg_light_color_1 r_corners f_right color_dark talign_c"></span>
                         </a>
                         <!--second level-->
                         <ul>
-                                    <li><a href="#" class="color_dark d_block">Evening Dresses</a></li>
-                                    <li><a href="#" class="color_dark d_block">Casual Dresses</a></li>
-                                    <li><a href="#" class="color_dark d_block">Party Dresses</a></li>
+                            <li><a href="#" class="color_dark d_block">Evening Dresses</a></li>
+                            <li><a href="#" class="color_dark d_block">Casual Dresses</a></li>
+                            <li><a href="#" class="color_dark d_block">Party Dresses</a></li>
 
                         </ul>
                     </li>
+                    <li>
+                        <a href="#" class="f_size_large scheme_color d_block relative">
+                            <b>Women</b>
+                            <span class="bg_light_color_1 r_corners f_right color_dark talign_c"></span>
+                        </a>
+                        <!--second level-->
+                        <ul>
+                            <li><a href="#" class="color_dark d_block">Evening Dresses</a></li>
+                            <li><a href="#" class="color_dark d_block">Casual Dresses</a></li>
+                            <li><a href="#" class="color_dark d_block">Party Dresses</a></li>
 
+                        </ul>
+                    </li>
                     <li>
                         <a href="#" class="f_size_large color_dark d_block relative">
                             <b>Kids</b>
