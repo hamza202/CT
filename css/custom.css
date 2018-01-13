@@ -1861,3 +1861,15 @@ width: 100px;
     line-height: 20px;
     color: #222;
 }
+/*/////////////////*/
+.testimonial-section{
+     background: url(../images/time-bg.jpg)no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.testimonial-overly{
+    background: rgba(0,0,0,0.7);
+    height: 418px;
+}

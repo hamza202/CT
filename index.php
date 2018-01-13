@@ -232,7 +232,8 @@ include('Header.php');
     </div>
 </section>
 
-<section class="sec-pad gray-bg testimonial-section">
+<section class=" gray-bg testimonial-section">
+    <div class="testimonial-overly sec-pad">
     <div class="thm-container">
         <div class="row">
             <div class="sec-title text-center">
@@ -251,6 +252,7 @@ include('Header.php');
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 
