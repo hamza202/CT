@@ -1841,3 +1841,23 @@ width: 100px;
         margin-top: 10px;
     }
 }
+.project-sec .faq-page{
+    background: #f3f5f6;
+}
+.project-sec .faq-page .accordion .panel{
+    background: #f3f5f6 ;
+}
+.project-sec .faq-page .accordion a[role=button]{
+    background: #fff;
+}
+.project-sec .faq-page .accordion a[aria-expanded="true"] {
+    background: #353543;
+    color: #fff;
+}
+.project-sec .faq-page .inner-box{
+    background: #fff;
+}
+.project-sec .faq-page ul.list-box li {
+    line-height: 20px;
+    color: #222;
+}

@@ -262,46 +262,136 @@ include('Header.php');
                 <div class="decor-line"></div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12 mix insurance">
-                    <div class="single-project-item">
-                        <div class="img-holder"><img src="images/new/project1.jpg" alt="Awesome Image">
-                            <div class="this-infos">
-                                <div class="infos-inner"><a href="#" class="this-link btn btn-primary">Details</a></div>
+                <div class=" faq-page ">
+                    <div id="accordion" role="tablist" class="panel-group accordion ">
+                        <div class="panel panel-default"><a role="button" data-toggle="collapse"
+                                                            data-parent="#accordion" href="#collapseTwo"
+                                                            class="collapsed"
+                                                            aria-expanded="false">COST OF GOODS SOLD</a>
+                            <div id="collapseTwo" role="tabpanel" class="panel-collapse collapse"
+                                 aria-expanded="false" style="height: 0px;">
+                                <div class="inner-box">
+                                    <div class="about-company-history">
+                                        <ul class="list-box ml-20">
+                                            <li>Opening inventory
+                                            </li>
+                                            <li>Purchases during the year
+                                            </li>
+                                            <li>Subcontracts and direct wages</li>
+                                            <li>Ending inventory
+                                            </li>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <h2>Consectetur adipiscing elit, sed do eiusmod tempor</h2>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 mix finance">
-                    <div class="single-project-item">
-                        <div class="img-holder"><img src="images/new/project2.jpg" alt="Awesome Image">
-                            <div class="this-infos">
-                                <div class="infos-inner"><a href="#" class="this-link btn btn-primary">Details</a></div>
+                        <div class="panel panel-default"><a role="button" data-toggle="collapse"
+                                                            data-parent="#accordion" href="#collapseThree"
+                                                            class="collapsed"
+                                                            aria-expanded="false">EXPENSES</a>
+                            <div id="collapseThree" role="tabpanel" class="panel-collapse collapse"
+                                 aria-expanded="false" style="height: 0px;">
+                                <div class="inner-box">
+                                    <div class="about-company-history">
+                                        <ul class="list-box ml-20">
+                                            <li>Legal papers of buying equipment & vehicles used in your business
+                                            </li>
+                                            <li>Utilities & Telephone bills
+                                            </li>
+                                            <li>Property taxes</li>
+                                            <li>Rent/mortgage papers (payment + interest paid)
+                                            </li>
+                                            <li>Insurance</li>
+                                            <li>Advertising & Promotion</li>
+                                            <li>Business tax, fees, licenses, dues & memberships</li>
+                                            <li>Delivery and freight charges</li>
+                                            <li>Office & Supplies expenses</li>
+                                            <li>Salaries and wages</li>
+                                            <li>Travel Expanses</li>
+                                            <li>Meals and entertaining</li>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <h2>Consectetur adipiscing elit, sed do eiusmod tempor</h2>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 mix consultant">
-                    <div class="single-project-item">
-                        <div class="img-holder"><img src="images/new/project3.jpg" alt="Awesome Image">
-                            <div class="this-infos">
-                                <div class="infos-inner"><a href="#" class="this-link btn btn-primary">Details</a></div>
+                        <div class="panel panel-default"><a role="button" data-toggle="collapse"
+                                                            data-parent="#accordion" href="#collapseFour"
+                                                            class="collapsed"
+                                                            aria-expanded="false">AUTOMOBILE EXPENSES</a>
+                            <div id="collapseFour" role="tabpanel" class="panel-collapse collapse"
+                                 aria-expanded="false" style="height: 0px;">
+                                <div class="inner-box">
+                                    <div class="about-company-history">
+                                        <ul class="list-box ml-20">
+                                            <li>Total Kms/Miles driven during the year
+                                            </li>
+                                            <li>Kms for business use
+                                            </li>
+                                            <li>Auto Gas/Fuel</li>
+                                            <li>Auto Repairs and maintenance
+                                            </li>
+                                            <li>Auto Parking</li>
+                                            <li>Insurance</li>
+                                            <li>License</li>
+                                            <li>Auto loan interest</li>
+                                            <li>Leasing costs</li>
+                                            <li>All other expenses related to automobile</li>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <h2>Consectetur adipiscing elit, sed do eiusmod tempor</h2>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 mix finance">
-                    <div class="single-project-item">
-                        <div class="img-holder"><img src="images/new/project4.jpg" alt="Awesome Image">
-                            <div class="this-infos">
-                                <div class="infos-inner"><a href="#" class="this-link btn btn-primary">Details</a></div>
+                        <div class="panel panel-default"><a role="button" data-toggle="collapse"
+                                                            data-parent="#accordion" href="#collapseFive"
+                                                            class="collapsed"
+                                                            aria-expanded="false">HOME OFFICE COST</a>
+                            <div id="collapseFive" role="tabpanel" class="panel-collapse collapse"
+                                 aria-expanded="false" style="height: 0px;">
+                                <div class="inner-box">
+                                    <div class="about-company-history">
+                                        <ul class="list-box ml-20">
+                                            <li>Space used for business
+                                            </li>
+                                            <li>Sq. Ft. of Home for business use
+                                            </li>
+                                            <li>Mortgage interest (Need Mortgage Statement)</li>
+                                            <li>Rent (If ranting)
+                                            </li>
+                                            <li>Utilities (Heat, Hydro, Water)</li>
+                                            <li>Condominium fees</li>
+                                            <li>Property taxes (Need Actual Bill)</li>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <h2>Consectetur adipiscing elit, sed do eiusmod tempor</h2>
+                        <div class="panel panel-default"><a role="button" data-toggle="collapse"
+                                                            data-parent="#accordion" href="#collapseSix"
+                                                            class="collapsed"
+                                                            aria-expanded="false">OTHER</a>
+                            <div id="collapseSix" role="tabpanel" class="panel-collapse collapse"
+                                 aria-expanded="false" style="height: 0px;">
+                                <div class="inner-box">
+                                    <div class="about-company-history">
+                                        <ul class="list-box ml-20">
+                                            <li>Please bring previous year's financial statements and Tax return copies along with company's article.
+                                            </li>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+<div class="text-center">
+    <a href="Taxtip.php" class="bn- btn-danger thm-button mt-30 text-center">Read More <i class="fa fa-arrow-right"></i></a>
+
+</div>
             </div>
         </div>
     </div>
