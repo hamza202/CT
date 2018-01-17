@@ -268,6 +268,12 @@ include('Header.php');
                         <li class="hidden-xs">Secs</li>
                     </div>
                 </div>
+                <div class="text-bottom text-center pt-30">
+                    <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur </p>
+
+                </div>
             </div>
         </div>
     </div>

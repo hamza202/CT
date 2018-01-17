@@ -1827,7 +1827,6 @@ width: 100px;
 }
 .testimonial-section{
     background: #353535;
-    height: 418px;
 }
 @media (max-width: 767px){
     .account-popup {
@@ -1871,7 +1870,6 @@ width: 100px;
 }
 .testimonial-overly{
     background: rgba(0,0,0,0.7);
-    height: 418px;
 }
 
 /*/////////////*/
@@ -1916,12 +1914,7 @@ width: 100px;
 .sec-pad {
     padding: 60px 0;
 }
-.testimonial-section{
-    height: 350px;
-}
-.testimonial-overly{
-    height: 350px;
-}
+
 .single-project-item h3 {
     font-size: 16px;
     line-height: 22px;
@@ -1944,4 +1937,14 @@ width: 100px;
 }
 #minimal-bootstrap-carousel .carousel-caption .content{
     padding-top: 0 !important;
+}
+/*/////////*/
+#countdown{
+    position: relative;
+    top:0px;
+}
+.text-bottom p{
+    color: #fff;
+    font-size: 17px;
+    padding-top: 15px;
 }
