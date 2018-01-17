@@ -51,7 +51,8 @@
 <section class="page with-sidebar left blog-page sec-pad service-single-page">
     <div class="thm-container">
         <div class="row">
-            <div class="col-md-8 pull-right">
+            <?php include ("leftMenu.php")?>
+            <div class="col-md-8">
                 <div class="left-box">
                     <div class="single-service-box ">
                         <div class="img-box"><img src="images/single-service-1.png" alt="Awesome Image"></div>
@@ -90,7 +91,6 @@
                     <!-- /.single-service-box-->
                 </div>
             </div>
-<?php include ("leftMenu.php")?>
         </div>
     </div>
 </section>

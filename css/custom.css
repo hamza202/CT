@@ -1873,3 +1873,11 @@ width: 100px;
     background: rgba(0,0,0,0.7);
     height: 418px;
 }
+
+/*/////////////*/
+.partner-img img{
+    width: 320px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+}

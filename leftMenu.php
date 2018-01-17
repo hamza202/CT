@@ -1,4 +1,5 @@
-<div class="col-md-4 pull-left">
+
+<div class="col-md-4">
     <div class="right-box">
         <div class="single-sidebar-widget">
             <div class="single-service-list-widget">
@@ -35,6 +36,14 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <div class="single-sidebar-widget">
+            <div class="partner-img">
+                <img class="img-responsive" src="images/Adidas.jpg">
+            </div>
+            <div class="partner-img mt-10">
+                <img class="img-responsive" src="images/nike.jpg">
             </div>
         </div>
         <div class="single-sidebar-widget">
