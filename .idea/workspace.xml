@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38eddb1f-5a36-46ca-95f7-9d75cccee174" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Bookkeeping.php" afterPath="$PROJECT_DIR$/Bookkeeping.php" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
       <change beforePath="$PROJECT_DIR$/leftMenu.php" afterPath="$PROJECT_DIR$/leftMenu.php" />
     </list>
@@ -16,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="1863" column="21" lean-forward="true" selection-start-line="1863" selection-start-column="21" selection-end-line="1863" selection-end-column="21" />
+            <state relative-caret-position="497">
+              <caret line="1905" column="32" lean-forward="false" selection-start-line="1905" selection-start-column="32" selection-end-line="1905" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -38,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bookkeeping.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bookkeeping.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bookkeeping.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="303">
               <caret line="53" column="44" lean-forward="false" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
               <folding />
             </state>
@@ -51,8 +49,8 @@
       <file leaf-file-name="leftMenu.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leftMenu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="299">
+              <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -159,9 +157,9 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/theme.js" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
-        <option value="$PROJECT_DIR$/leftMenu.php" />
         <option value="$PROJECT_DIR$/Bookkeeping.php" />
+        <option value="$PROJECT_DIR$/leftMenu.php" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
@@ -274,12 +272,12 @@
       <workItem from="1515657187431" duration="5023000" />
       <workItem from="1515671317320" duration="7774000" />
       <workItem from="1515836847452" duration="10057000" />
-      <workItem from="1516184615061" duration="3751000" />
+      <workItem from="1516184615061" duration="5028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154282000" />
+    <option name="totallyTimeSpent" value="155559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -635,26 +633,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/Bookkeeping.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="1863" column="21" lean-forward="true" selection-start-line="1863" selection-start-column="21" selection-end-line="1863" selection-end-column="21" />
+        <state relative-caret-position="303">
+          <caret line="53" column="44" lean-forward="false" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leftMenu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="299">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bookkeeping.php">
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="53" column="44" lean-forward="false" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+        <state relative-caret-position="497">
+          <caret line="1905" column="32" lean-forward="false" selection-start-line="1905" selection-start-column="32" selection-end-line="1905" selection-end-column="32" />
           <folding />
         </state>
       </provider>

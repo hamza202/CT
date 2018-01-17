@@ -38,7 +38,11 @@
                 </ul>
             </div>
         </div>
-        <div class="single-sidebar-widget">
+        <div class="single-sidebar-widget  partner-section">
+            <div class="sec-title">
+            <h4>Partners</h4>
+            <div class="decor-line"></div>
+            </div>
             <div class="partner-img">
                 <img class="img-responsive" src="images/Adidas.jpg">
             </div>

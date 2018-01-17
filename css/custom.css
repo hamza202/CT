@@ -1881,3 +1881,29 @@ width: 100px;
     display: block;
     margin: 0 auto;
 }
+/*//////////*/
+.note-bg{
+    padding: 30px 0;
+    min-height: auto;
+}
+#minimal-bootstrap-carousel .carousel-inner, #minimal-bootstrap-carousel {
+    height: calc(100vh - 267px);
+}
+.partner-section .sec-title .decor-line{
+    margin-top: 10px;
+}
+.partner-section .sec-title{
+    margin-bottom: 0;
+}
+.partner-section .sec-title h4{
+    color: #fff;
+}
+.partner-section{
+    padding: 10px;
+    background: #333;
+}
+@media (max-width: 767px){
+    .partner-section .sec-title {
+        text-align: center;
+    }
+}
