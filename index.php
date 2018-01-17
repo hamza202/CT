@@ -137,39 +137,57 @@ include('Header.php');
         </div>
     </div>
 </section>
-<section class="sec-pad service-page3">
+<section class="sec-pad project-sec">
     <div class="thm-container">
-        <div class="sec-title">
-            <h2>Services</h2>
-            <div class="decor-line"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-service-item"><img src="images/new/service1.jpg" alt="">
-                    <h3>Bookkeeping</h3>
-                    <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt
-                        Saving Regular Saving</p>
-                </div>
+        <div class="mixit-gallery" id="MixItUp7A582E">
+            <div class="sec-title">
+                <h2>Service</h2>
+                <div class="decor-line"></div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-service-item"><img src="images/new/service2.jpg" alt="">
-                    <h3>Income Tax</h3>
-                    <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt
-                        Saving Regular Saving</p>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12 mix insurance" style="display: inline-block;" data-bound="">
+                    <div class="single-project-item">
+                        <div class="img-holder"><img src="images/new/project1.jpg" alt="Awesome Image">
+                            <div class="this-infos">
+                                <div class="infos-inner"><a href="#" class="this-link btn btn-primary">Details</a></div>
+                            </div>
+                        </div>
+                        <h3>Bookkeeping</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-service-item"><img src="images/new/service3.jpg" alt="">
-                    <h3>Payroll</h3>
-                    <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt
-                        Saving Regular Saving</p>
+                <div class="col-md-3 col-sm-6 col-xs-12 mix finance" style="display: inline-block;" data-bound="">
+                    <div class="single-project-item">
+                        <div class="img-holder"><img src="images/new/project2.jpg" alt="Awesome Image">
+                            <div class="this-infos">
+                                <div class="infos-inner"><a href="#" class="this-link btn btn-primary">Details</a></div>
+                            </div>
+                        </div>
+                        <h3>Income Tax</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-service-item"><img src="images/new/service4.jpg" alt="">
-                    <h3>New Business setup</h3>
-                    <p>There is a variety of saving plnans which can be tailored to your needs, including Tzx Exempt
-                        Saving Regular Saving</p>
+                <div class="col-md-3 col-sm-6 col-xs-12 mix consultant" style="display: inline-block;" data-bound="">
+                    <div class="single-project-item">
+                        <div class="img-holder"><img src="images/new/project3.jpg" alt="Awesome Image">
+                            <div class="this-infos">
+                                <div class="infos-inner"><a href="#" class="this-link btn btn-primary">Details</a></div>
+                            </div>
+                        </div>
+                        <h3>Payroll</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 mix finance" style="display: inline-block;" data-bound="">
+                    <div class="single-project-item">
+                        <div class="img-holder"><img src="images/new/project4.jpg" alt="Awesome Image">
+                            <div class="this-infos">
+                                <div class="infos-inner"><a href="#" class="this-link btn btn-primary">Details</a></div>
+                            </div>
+                        </div>
+                        <h3>New Business setup</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    </div>
                 </div>
             </div>
         </div>
