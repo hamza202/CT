@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38eddb1f-5a36-46ca-95f7-9d75cccee174" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Bookkeeping.php" afterPath="$PROJECT_DIR$/Bookkeeping.php" />
-      <change beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +16,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="1704" column="6" lean-forward="true" selection-start-line="1704" selection-start-column="6" selection-end-line="1704" selection-end-column="6" />
+            <state relative-caret-position="504">
+              <caret line="1953" column="1" lean-forward="false" selection-start-line="1953" selection-start-column="1" selection-end-line="1953" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -187,7 +183,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="y" value="344" />
     <option name="width" value="1382" />
@@ -291,15 +287,15 @@
       <workItem from="1515836847452" duration="10057000" />
       <workItem from="1516184615061" duration="9643000" />
       <workItem from="1516441509309" duration="3667000" />
-      <workItem from="1516522428334" duration="1792000" />
+      <workItem from="1516522428334" duration="2061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165633000" />
+    <option name="totallyTimeSpent" value="165902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20717423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -675,8 +671,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="1704" column="6" lean-forward="true" selection-start-line="1704" selection-start-column="6" selection-end-line="1704" selection-end-column="6" />
+        <state relative-caret-position="504">
+          <caret line="1953" column="1" lean-forward="false" selection-start-line="1953" selection-start-column="1" selection-end-line="1953" selection-end-column="1" />
           <folding />
         </state>
       </provider>
