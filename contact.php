@@ -51,6 +51,55 @@
     <section class="sec-pad contact-page contact-section">
       <div class="thm-container">
         <div class="row">
+            <div class="col-md-8">
+                <div class="sec-title">
+                    <h2>Drop a message</h2>
+                    <div class="decor-line"></div>
+                </div>
+                <form id="contact_page" action="#" method="POST" class="contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-grp">
+                                <label>Your Name</label>
+                                <input id="contact_name" type="text" name="name" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-grp">
+                                <label>Your Email</label>
+                                <input id="contact_email" type="text" name="email" required>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-grp">
+                                <label>Subject</label>
+                                <input id="subject" type="text" name="subject" required>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-grp">
+                                <label class="text-capitalize">Interested In the following services:</label>
+                                <select class="form-control">
+                                    <option value="#">Accounting</option>
+                                    <option value="#">Bookkeeping</option>
+                                    <option value="#">Tax (Personal)</option>
+                                    <option value="#">Tax (Corporate)</option>
+                                    <option value="#">Business Advisory</option>
+                                    <option value="#">Business Incorporation</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-grp">
+                                <label>Message</label>
+                                <textarea id="message" name="message" required></textarea>
+                                <button type="submit" class="thm-button inverse">submit now</button>
+                            </div>
+                            <div id="success"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
           <div class="col-md-4">
             <div class="sec-title">
               <h2>contact info</h2>
@@ -79,55 +128,7 @@
               <div class="map mt-20 sm-mb-20">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1041.8578121009457!2d-117.14252547566194!3d58.51614577038031!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2s!4v1514973586198" width="100%" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>              </div>
           </div>
-          <div class="col-md-8">
-            <div class="sec-title">
-              <h2>Drop a message</h2>
-              <div class="decor-line"></div>
-            </div>
-            <form id="contact_page" action="#" method="POST" class="contact-form">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-grp">
-                    <label>Your Name</label>
-                    <input id="contact_name" type="text" name="name" required>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-grp">
-                    <label>Your Email</label>
-                    <input id="contact_email" type="text" name="email" required>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="form-grp">
-                    <label>Subject</label>
-                    <input id="subject" type="text" name="subject" required>
-                  </div>
-                </div>
-                  <div class="col-md-12">
-                  <div class="form-grp">
-                      <label class="text-capitalize">Interested In the following services:</label>
-                      <select class="form-control">
-                          <option value="#">Accounting</option>
-                          <option value="#">Bookkeeping</option>
-                          <option value="#">Tax (Personal)</option>
-                          <option value="#">Tax (Corporate)</option>
-                          <option value="#">Business Advisory</option>
-                          <option value="#">Business Incorporation</option>
-                      </select>
-                  </div>
-                  </div>
-                <div class="col-md-12">
-                  <div class="form-grp">
-                    <label>Message</label>
-                    <textarea id="message" name="message" required></textarea>
-                    <button type="submit" class="thm-button inverse">submit now</button>
-                  </div>
-                  <div id="success"></div>
-                </div>
-              </div>
-            </form>
-          </div>
+
         </div>
       </div>
     </section>

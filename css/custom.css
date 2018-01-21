@@ -1700,9 +1700,9 @@ width: 100px;
 .categories_list ul{
     display: none;
 }
-.categories_list li.active ul{
-    display: block !important;
-}
+/*.categories_list li.active ul{*/
+     /*display: block !important;*/
+ /*}*/
 .add-feed-back button{
     font-size: 17px;
     background-color: #d42a1d;
