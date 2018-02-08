@@ -51,7 +51,7 @@
 <section class="page with-sidebar left blog-page sec-pad service-single-page">
     <div class="thm-container">
         <div class="row">
-
+            <?php include ("leftMenu.php")?>
             <div class="col-md-8">
                 <div class="left-box">
                     <div class="single-service-box ">
@@ -91,7 +91,7 @@
                     <!-- /.single-service-box-->
                 </div>
             </div>
-            <?php include ("leftMenu.php")?>
+            <a href="#" class="bn- btn-danger thm-button mt-30 text-center service-btn">Read More <i class="fa fa-arrow-right"></i></a>
         </div>
     </div>
 </section>

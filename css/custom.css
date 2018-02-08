@@ -1952,3 +1952,50 @@ width: 100px;
 .faq-page .accordion .panel-collapse .inner-box {
     padding: 12px 12px;
 }
+/*////*/
+p.count-text-left,
+p.count-text-right{
+    font-size: 24px;
+    color: #fff;
+    padding-top: 62px;
+    text-transform: capitalize;
+}
+p.count-text-left{
+    text-align: right;
+}
+@media only screen and (max-width : 768px) {
+    #countdown #tiles > span{
+        width: 83px;
+    }
+}
+@media only screen and (max-width : 992px) {
+    p.count-text-left{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    p.count-text-right{
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+.single-service-box .img-box img{
+    max-height: 230px;
+}
+.service-1 img{
+    max-height: 325px;
+}
+.service-1 .sec-title h2{
+    font-size: 24px;
+}
+.service-1 .sec-title{
+    margin-bottom: 10px;
+}
+.has-chaild{
+    border: 1px solid #e0e0e0;
+    padding: 20px 29px;
+    margin-bottom: 20px;
+}
+a.service-btn{
+    margin-left: 0 !important;
+}

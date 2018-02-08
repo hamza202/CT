@@ -259,20 +259,31 @@ include('Header.php');
                 <div class="decor-line"></div>
             </div>
             <div class="col-xs-12">
-                <div id="countdown">
-                    <div id='tiles'>
-                        <span class="days"></span>
-                        <span class="hours"></span>
-                        <span class="minutes"></span>
-                        <span class="seconds"></span>
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="count-text-left">Test left Text</p>
                     </div>
-                    <div class="labels">
-                        <li>Days</li>
-                        <li>Hours</li>
-                        <li>Mins</li>
-                        <li class="hidden-xs">Secs</li>
+                    <div class="col-md-6">
+                        <div id="countdown">
+                            <div id='tiles'>
+                                <span class="days"></span>
+                                <span class="hours"></span>
+                                <span class="minutes"></span>
+                                <span class="seconds hidden-sm hidden-xs"></span>
+                            </div>
+                            <div class="labels">
+                                <li>Days</li>
+                                <li>Hours</li>
+                                <li>Mins</li>
+                                <li class="hidden-xs">Secs</li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                       <p class="count-text-right">test right text </p>
                     </div>
                 </div>
+
                 <div class="text-bottom text-center pt-30">
                     <p>Lorem ipsum dolor sit amet, consectetur </p>
                     <p>Lorem ipsum dolor sit amet, consectetur </p>
@@ -548,7 +559,7 @@ include('Header.php');
 
     // LAUNCH DATE
     // USE CHRISTMAS DAY so countdown is not a negative value for foreseeable future
-    var deadline = '1 22 2018 00:00:00 UTC';
+    var deadline = '5 22 2018 00:00:00 UTC';
     initializeClock('countdown', deadline);
 
 
