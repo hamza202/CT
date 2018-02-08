@@ -1999,3 +1999,7 @@ p.count-text-left{
 a.service-btn{
     margin-left: 0 !important;
 }
+.bg-gray{
+    background: #f0f0f0;
+    padding: 30px;
+}
