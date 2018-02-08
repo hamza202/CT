@@ -91,7 +91,7 @@
                     <!-- /.single-service-box-->
                 </div>
             </div>
-            <a href="#" class="bn- btn-danger thm-button mt-30 text-center service-btn">Read More <i class="fa fa-arrow-right"></i></a>
+            <a href="#" class="bn- btn-danger thm-button mt-30 text-center service-btn"> Read More <i class="fa fa-arrow-right"></i></a>
         </div>
     </div>
 </section>
