@@ -56,76 +56,87 @@
 
                         <div class=" faq-page mt-30">
                             <div id="accordion" role="tablist" class="panel-group accordion ">
-                                <div class="panel panel-default"><a role="button" data-toggle="collapse"
-                                                                    data-parent="#accordion" href="#collapseOne"
-                                                                    class="collapsed" aria-expanded="true">REVENUE</a>
-                                    <div id="collapseOne" role="tabpanel" class="panel-collapse collapse in"
-                                         aria-expanded="true" style="height: auto;">
-                                        <div class="inner-box">
-                                            <div class="about-company-history">
-                                                <ul class="list-box ml-20">
-                                                    <li>Sale, Fees, Commissions
-                                                    </li>
-                                                    <li>Commissions as per T4A (Self-employed)
-                                                    </li>
-                                                </ul>
-                                                <div class="clearfix"></div>
+                                <div class="taxtip-block">
+                                    <div class="sec-title">
+                                        <h2>Title1</h2>
+                                        <div class="decor-line"></div>
+                                    </div>
+                                    <div class="panel panel-default"><a role="button" data-toggle="collapse"
+                                                                        data-parent="#accordion" href="#collapseOne"
+                                                                        class="collapsed" aria-expanded="true">REVENUE</a>
+                                        <div id="collapseOne" role="tabpanel" class="panel-collapse collapse in"
+                                             aria-expanded="true" style="height: auto;">
+                                            <div class="inner-box">
+                                                <div class="about-company-history">
+                                                    <ul class="list-box ml-20">
+                                                        <li>Sale, Fees, Commissions
+                                                        </li>
+                                                        <li>Commissions as per T4A (Self-employed)
+                                                        </li>
+                                                    </ul>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default"><a role="button" data-toggle="collapse"
+                                                                        data-parent="#accordion" href="#collapseTwo"
+                                                                        class="collapsed"
+                                                                        aria-expanded="false">COST OF GOODS SOLD</a>
+                                        <div id="collapseTwo" role="tabpanel" class="panel-collapse collapse"
+                                             aria-expanded="false" style="height: 0px;">
+                                            <div class="inner-box">
+                                                <div class="about-company-history">
+                                                    <ul class="list-box ml-20">
+                                                        <li>Opening inventory
+                                                        </li>
+                                                        <li>Purchases during the year
+                                                        </li>
+                                                        <li>Subcontracts and direct wages</li>
+                                                        <li>Ending inventory
+                                                        </li>
+                                                    </ul>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default"><a role="button" data-toggle="collapse"
+                                                                        data-parent="#accordion" href="#collapseThree"
+                                                                        class="collapsed"
+                                                                        aria-expanded="false">EXPENSES</a>
+                                        <div id="collapseThree" role="tabpanel" class="panel-collapse collapse"
+                                             aria-expanded="false" style="height: 0px;">
+                                            <div class="inner-box">
+                                                <div class="about-company-history">
+                                                    <ul class="list-box ml-20">
+                                                        <li>Legal papers of buying equipment & vehicles used in your business
+                                                        </li>
+                                                        <li>Utilities & Telephone bills
+                                                        </li>
+                                                        <li>Property taxes</li>
+                                                        <li>Rent/mortgage papers (payment + interest paid)
+                                                        </li>
+                                                        <li>Insurance</li>
+                                                        <li>Advertising & Promotion</li>
+                                                        <li>Business tax, fees, licenses, dues & memberships</li>
+                                                        <li>Delivery and freight charges</li>
+                                                        <li>Office & Supplies expenses</li>
+                                                        <li>Salaries and wages</li>
+                                                        <li>Travel Expanses</li>
+                                                        <li>Meals and entertaining</li>
+                                                    </ul>
+                                                    <div class="clearfix"></div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="panel panel-default"><a role="button" data-toggle="collapse"
-                                                                    data-parent="#accordion" href="#collapseTwo"
-                                                                    class="collapsed"
-                                                                    aria-expanded="false">COST OF GOODS SOLD</a>
-                                    <div id="collapseTwo" role="tabpanel" class="panel-collapse collapse"
-                                         aria-expanded="false" style="height: 0px;">
-                                        <div class="inner-box">
-                                            <div class="about-company-history">
-                                                <ul class="list-box ml-20">
-                                                    <li>Opening inventory
-                                                    </li>
-                                                    <li>Purchases during the year
-                                                    </li>
-                                                    <li>Subcontracts and direct wages</li>
-                                                    <li>Ending inventory
-                                                    </li>
-                                                </ul>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
+                                <div class="taxtip-block">
+                                    <div class="sec-title">
+                                        <h2>Title2</h2>
+                                        <div class="decor-line"></div>
                                     </div>
-                                </div>
-                                <div class="panel panel-default"><a role="button" data-toggle="collapse"
-                                                                    data-parent="#accordion" href="#collapseThree"
-                                                                    class="collapsed"
-                                                                    aria-expanded="false">EXPENSES</a>
-                                    <div id="collapseThree" role="tabpanel" class="panel-collapse collapse"
-                                         aria-expanded="false" style="height: 0px;">
-                                        <div class="inner-box">
-                                            <div class="about-company-history">
-                                                <ul class="list-box ml-20">
-                                                    <li>Legal papers of buying equipment & vehicles used in your business
-                                                    </li>
-                                                    <li>Utilities & Telephone bills
-                                                    </li>
-                                                    <li>Property taxes</li>
-                                                    <li>Rent/mortgage papers (payment + interest paid)
-                                                    </li>
-                                                    <li>Insurance</li>
-                                                    <li>Advertising & Promotion</li>
-                                                    <li>Business tax, fees, licenses, dues & memberships</li>
-                                                    <li>Delivery and freight charges</li>
-                                                    <li>Office & Supplies expenses</li>
-                                                    <li>Salaries and wages</li>
-                                                    <li>Travel Expanses</li>
-                                                    <li>Meals and entertaining</li>
-                                                </ul>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="panel panel-default"><a role="button" data-toggle="collapse"
                                                                     data-parent="#accordion" href="#collapseFour"
                                                                     class="collapsed"
@@ -195,6 +206,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
