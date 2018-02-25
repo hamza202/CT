@@ -2003,3 +2003,16 @@ a.service-btn{
     background: #f0f0f0;
     padding: 30px;
 }
+/*////////////*/
+
+.team-bg.team-bg2{
+    background-color: #fff;
+}
+h2.action-head{
+    font-size: 38px;
+    color: #e94033;
+    text-transform: uppercase;
+}
+.footer-contacts2 .thm-button {
+    margin: 50px 0 0 0;
+}

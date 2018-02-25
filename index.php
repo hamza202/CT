@@ -90,37 +90,6 @@ include('Header.php');
                 class="fa fa-angle-right"></i><span class="sr-only">Next</span></a>
 </div>
 
-
-<!--<div class="header-right-info pull-right">-->
-<!--<ul>-->
-<!--<li>-->
-<!--<div class="single-header-right-info">-->
-<!--<div class="icon-box"><i class="icon icon-Pointer"></i></div>-->
-<!--<div class="text-box">-->
-<!--<p>Canada <br>four street , TX 70240</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</li>-->
-<!--<li>-->
-<!--<div class="single-header-right-info">-->
-<!--<div class="icon-box"><i class="icon icon-Phone2"></i></div>-->
-<!--<div class="text-box">-->
-<!--<p>+ (123) 456 7890 <br>info@ct.com</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</li>-->
-<!--<li>-->
-<!--<div class="single-header-right-info">-->
-<!--<div class="icon-box"><i class="icon icon-Timer"></i></div>-->
-<!--<div class="text-box">-->
-<!--<p>Mon - Sat 9.00 - 19.00 <br>Sunday Closed</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</li>-->
-<!--</ul>-->
-<!--</div>-->
-
-
 <section class="note-bg">
     <div class="thm-container">
         <div class="row">
@@ -137,6 +106,91 @@ include('Header.php');
         </div>
     </div>
 </section>
+
+<section class="why-choose-us sec-pad">
+    <div class="container">
+        <div class="sec-title">
+            <h2>why choose us</h2>
+            <div class="decor-line"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="img-responsive" src="images/about-cta-bg.jpg">
+            </div>
+            <div class="col-sm-6">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
+                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
+                    temporibus vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
+                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
+                    temporibus vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
+                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
+                    temporibus vero.
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="why-choose-us sec-pad">
+    <div class="container">
+        <div class="sec-title">
+            <h2>why choose us</h2>
+            <div class="decor-line"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="img-responsive" src="images/about-cta-bg.jpg">
+            </div>
+            <div class="col-sm-6">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
+                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
+                    temporibus vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
+                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
+                    temporibus vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
+                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
+                    temporibus vero.
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="why-choose-us sec-pad">
+    <div class="container">
+        <div class="sec-title">
+            <h2>why choose us</h2>
+            <div class="decor-line"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="img-responsive" src="images/about-cta-bg.jpg">
+            </div>
+            <div class="col-sm-6">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
+                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
+                    temporibus vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
+                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
+                    temporibus vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
+                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
+                    temporibus vero.
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="sec-pad project-sec">
     <div class="thm-container">
         <div class="mixit-gallery" id="MixItUp7A582E">
@@ -145,7 +199,7 @@ include('Header.php');
                 <div class="decor-line"></div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12 mix insurance" style="display: inline-block;" data-bound="">
+                <div class="col-md-4 col-sm-6 col-xs-12 mix insurance" style="display: inline-block;" data-bound="">
                     <div class="single-project-item">
                         <div class="img-holder"><img src="images/new/project1.jpg" alt="Awesome Image">
                             <div class="this-infos">
@@ -156,7 +210,7 @@ include('Header.php');
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 mix finance" style="display: inline-block;" data-bound="">
+                <div class="col-md-4 col-sm-6 col-xs-12 mix finance" style="display: inline-block;" data-bound="">
                     <div class="single-project-item">
                         <div class="img-holder"><img src="images/new/project2.jpg" alt="Awesome Image">
                             <div class="this-infos">
@@ -167,7 +221,7 @@ include('Header.php');
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 mix consultant" style="display: inline-block;" data-bound="">
+                <div class="col-md-4 col-sm-6 col-xs-12 mix consultant" style="display: inline-block;" data-bound="">
                     <div class="single-project-item">
                         <div class="img-holder"><img src="images/new/project3.jpg" alt="Awesome Image">
                             <div class="this-infos">
@@ -178,7 +232,7 @@ include('Header.php');
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 mix finance" style="display: inline-block;" data-bound="">
+                <div class="col-md-4 col-sm-6 col-xs-12 mix finance" style="display: inline-block;" data-bound="">
                     <div class="single-project-item">
                         <div class="img-holder"><img src="images/new/project4.jpg" alt="Awesome Image">
                             <div class="this-infos">
@@ -189,6 +243,29 @@ include('Header.php');
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                     </div>
                 </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 mix finance" style="display: inline-block;" data-bound="">
+                    <div class="single-project-item">
+                        <div class="img-holder"><img src="images/new/project4.jpg" alt="Awesome Image">
+                            <div class="this-infos">
+                                <div class="infos-inner"><a href="#" class="this-link btn btn-primary">Details</a></div>
+                            </div>
+                        </div>
+                        <h3>New Business setup</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 mix finance" style="display: inline-block;" data-bound="">
+                    <div class="single-project-item">
+                        <div class="img-holder"><img src="images/new/project4.jpg" alt="Awesome Image">
+                            <div class="this-infos">
+                                <div class="infos-inner"><a href="#" class="this-link btn btn-primary">Details</a></div>
+                            </div>
+                        </div>
+                        <h3>New Business setup</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -438,36 +515,10 @@ include('Header.php');
         </div>
     </div>
 </section>
-<section class="why-choose-us sec-pad">
-    <div class="container">
-        <div class="sec-title">
-            <h2>why choose us</h2>
-            <div class="decor-line"></div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <img class="img-responsive" src="images/about-cta-bg.jpg">
-            </div>
-            <div class="col-sm-6">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
-                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
-                    temporibus vero.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
-                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
-                    temporibus vero.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque eveniet laboriosam modi natus nisi
-                    numquam placeat quo repudiandae rerum! Dolor eius eveniet fugiat laborum perspiciatis rem, suscipit
-                    temporibus vero.
-
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
 <section class="footer-contacts2">
     <div class="thm-container">
         <div class="col-md-9">
+            <h2 class="action-head">title</h2>
             <h2>All of our planners believe that everyone, rich or not so rich, deserves great <strong>financial advice
                     and planning services</strong></h2>
         </div>
